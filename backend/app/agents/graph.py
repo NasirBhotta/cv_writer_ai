@@ -1,6 +1,7 @@
 
 import os
 
+from pydantic import ValidationError
 from langgraph.graph import StateGraph, START, END
 
 from backend.app.agents.state import ResumeAgentState
@@ -14,12 +15,15 @@ from backend.app.agents.resume_writer import (
 from backend.app.agents.resume_evaluator import (
     resume_evaluator_node,
 )
+
 from backend.app.services.profile_store import load_profile
 from backend.app.services.profile_retriever import retrieve_facts
+from backend.app.services.pipeline_cache import (
+    load_cached,
+    save_cached,
+)
 
 
-# Default: 3 revisions.
-# Development: set RESUME_MAX_REVISIONS=1
 MAX_REVISIONS = max(
     0,
     int(os.getenv("RESUME_MAX_REVISIONS", "3")),
@@ -27,14 +31,12 @@ MAX_REVISIONS = max(
 
 
 def prepare_input(state: ResumeAgentState) -> dict:
-    job_description = state["job_description"].strip()
+    jd = state["job_description"].strip()
 
-    if not job_description:
+    if not jd:
         raise ValueError("Job description cannot be empty")
 
-    return {
-        "job_description": job_description,
-    }
+    return {"job_description": jd}
 
 
 def initialize_run(state: ResumeAgentState) -> dict:
@@ -48,11 +50,43 @@ def initialize_run(state: ResumeAgentState) -> dict:
 
 
 def jd_analyzer_node(state: ResumeAgentState) -> dict:
-    analysis = analyze_job(state["job_description"])
-
-    return {
-        "job_analysis": analysis.model_dump(),
+    cache_inputs = {
+        "job_description": state["job_description"],
     }
+
+    cached = load_cached(
+        stage="jd_analysis",
+        inputs=cache_inputs,
+    )
+
+    if isinstance(cached, dict):
+        try:
+            analysis = JobAnalysis.model_validate(cached)
+
+            print("[CACHE HIT] JD analysis")
+
+            return {
+                "job_analysis": analysis.model_dump()
+            }
+
+        except ValidationError:
+            pass
+
+    print("[CACHE MISS] JD analysis")
+
+    analysis = analyze_job(
+        state["job_description"]
+    )
+
+    result = analysis.model_dump(mode="json")
+
+    save_cached(
+        stage="jd_analysis",
+        inputs=cache_inputs,
+        result=result,
+    )
+
+    return {"job_analysis": result}
 
 
 def profile_retriever_node(
@@ -62,34 +96,74 @@ def profile_retriever_node(
         state["job_analysis"]
     )
 
-    # Always use the saved master profile.
     profile = load_profile()
+    limit = 18
 
-    total_facts = sum(
-        len(work.facts)
+    available_ids = {
+        fact.id
         for work in profile.work_items
-    )
+        for fact in work.facts
+    }
 
     print(
         f"Profile: {len(profile.work_items)} work items, "
-        f"{total_facts} facts"
+        f"{len(available_ids)} unique facts"
     )
 
-    selected_ids = retrieve_facts(
+    # The cache key includes all work-item data.
+    # Profile changes automatically cause a cache miss.
+    cache_inputs = {
+        "job_analysis": analysis.model_dump(mode="json"),
+        "work_items": [
+            work.model_dump(mode="json")
+            for work in profile.work_items
+        ],
+        "limit": limit,
+    }
+
+    cached = load_cached(
+        stage="fact_selection",
+        inputs=cache_inputs,
+    )
+
+    # Never trust cached IDs without validation.
+    valid_cache = (
+        isinstance(cached, list)
+        and 0 < len(cached) <= limit
+        and all(isinstance(x, str) for x in cached)
+        and len(cached) == len(set(cached))
+        and all(x in available_ids for x in cached)
+    )
+
+    if valid_cache:
+        print("[CACHE HIT] Fact selection")
+
+        return {
+            "selected_fact_ids": cached,
+        }
+
+    print("[CACHE MISS] Fact selection")
+
+    fact_ids = retrieve_facts(
         profile=profile,
         job=analysis,
-        limit=18,
+        limit=limit,
+    )
+
+    save_cached(
+        stage="fact_selection",
+        inputs=cache_inputs,
+        result=fact_ids,
     )
 
     return {
-        "selected_fact_ids": selected_ids,
+        "selected_fact_ids": fact_ids,
     }
 
 
 def route_after_evaluation(
     state: ResumeAgentState,
 ) -> str:
-
     if state.get("quality_passed", False):
         return "finish"
 
