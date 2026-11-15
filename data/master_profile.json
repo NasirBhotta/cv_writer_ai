@@ -1,0 +1,1573 @@
+{
+  "name": "Nasir Shahzad",
+  "headline": "Full-Stack & AI Engineer | Flutter · Node.js · Python · Agentic AI",
+  "email": "dev.nasirbhutta@gmail.com",
+  "phone": "+92 313 7576531",
+  "portfolio": "https://portfolio-nizaam1.vercel.app/",
+  "github": "https://github.com/NasirBhotta",
+  "linkedin": "https://www.linkedin.com/in/me-bhotta",
+  "skills": [
+    "Flutter",
+    "Dart",
+    "Android",
+    "iOS",
+    "Flutter Web",
+    "Riverpod",
+    "BLoC",
+    "Provider",
+    "GetX",
+    "MVVM",
+    "Clean Architecture",
+    "GoRouter",
+    "Drift",
+    "SQLite",
+    "Offline Sync",
+    "Mapbox SDK",
+    "FCM",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "REST APIs",
+    "Firebase",
+    "Supabase",
+    "PostgreSQL",
+    "PostgreSQL RLS",
+    "WebSockets",
+    "Socket.IO",
+    "Stripe",
+    "Cloud Functions",
+    "FastAPI",
+    "Python",
+    "LangGraph",
+    "CrewAI",
+    "OpenAI Agents SDK",
+    "AutoGen",
+    "MCP",
+    "RAG",
+    "Embeddings",
+    "FAISS",
+    "LLM Integration",
+    "Function Calling",
+    "AI Agents",
+    "Pydantic",
+    "Git",
+    "GitHub Actions",
+    "Docker",
+    "Linux",
+    "k6",
+    "Nginx",
+    "Testing",
+    "Performance Testing",
+    "API Integration",
+    "TypeScript",
+    "Next.js",
+    "React",
+    "Playwright",
+    "Streamlit",
+    "Gradio",
+    "pytest"
+  ],
+  "work_items": [
+    {
+      "id": "crifly_developer",
+      "name": "Crifly — Part-Time Full-Stack Flutter Developer",
+      "category": "job",
+      "description": "Commercial team development across multiple Flutter applications; company work, not individually owned products.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "BLoC",
+        "MVVM",
+        "Firebase",
+        "REST APIs",
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+      ],
+      "facts": [
+        {
+          "id": "crifly_developer_fact_01",
+          "description": "Contributed to development and maintenance across six Flutter applications with responsive screens, reusable widgets and backend-connected features.",
+          "skills": [
+            "Flutter",
+            "Dart"
+          ]
+        },
+        {
+          "id": "crifly_developer_fact_02",
+          "description": "Integrated more than 20 REST API endpoints, Firebase authentication and realtime data into commercial Flutter workflows.",
+          "skills": [
+            "REST APIs",
+            "Flutter",
+            "Firebase"
+          ]
+        },
+        {
+          "id": "crifly_developer_fact_03",
+          "description": "Worked on Node.js/Express/MongoDB backend services and MVVM/BLoC state management.",
+          "skills": [
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "BLoC",
+            "MVVM"
+          ]
+        },
+        {
+          "id": "crifly_developer_fact_04",
+          "description": "Investigated asynchronous state, API integration, runtime-permission and UI defects; supported testing and release preparation.",
+          "skills": [
+            "Flutter",
+            "Debugging",
+            "REST APIs"
+          ]
+        }
+      ],
+      "role": "Part-Time Full-Stack Flutter Developer",
+      "organization": "Crifly",
+      "start_date": "2025-01",
+      "end_date": "2026-02"
+    },
+    {
+      "id": "crifly_intern",
+      "name": "Crifly — Flutter Developer Internship",
+      "category": "internship",
+      "description": "Early Flutter role preceding part-time development position.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "REST APIs"
+      ],
+      "facts": [
+        {
+          "id": "crifly_intern_fact_01",
+          "description": "Implemented Flutter UI screens and reusable components from design specifications.",
+          "skills": [
+            "Flutter",
+            "Dart",
+            "Figma"
+          ]
+        },
+        {
+          "id": "crifly_intern_fact_02",
+          "description": "Assisted with Firebase and REST API integration, functional testing and defect resolution.",
+          "skills": [
+            "Flutter",
+            "Firebase",
+            "REST APIs"
+          ]
+        }
+      ],
+      "role": "Flutter Developer Intern",
+      "organization": "Crifly",
+      "start_date": "2024-06",
+      "end_date": "2024-09"
+    },
+    {
+      "id": "glowsims_intern",
+      "name": "GLOWSIMS — Mobile App Development Internship",
+      "category": "internship",
+      "description": "Internship contributions to learning-management APIs and Talib mobile application.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Database Indexing",
+        "REST APIs",
+        "Caching",
+        "Pagination"
+      ],
+      "facts": [
+        {
+          "id": "glowsims_intern_fact_01",
+          "description": "Optimized LMS database queries and indexing; reported p95 API latency improved from 1,100 ms to 420 ms (about 62%).",
+          "skills": [
+            "Backend Optimization",
+            "Database Indexing",
+            "REST APIs"
+          ]
+        },
+        {
+          "id": "glowsims_intern_fact_02",
+          "description": "Automated enrollment and attendance workflows; reported 67% fewer manual processing steps and 69% lower attendance time.",
+          "skills": [
+            "Workflow Automation",
+            "Backend"
+          ]
+        },
+        {
+          "id": "glowsims_intern_fact_03",
+          "description": "Enhanced Talib dashboard loading using caching, lazy loading and pagination; reported 3.2s to 1.4s (about 56%) load-time improvement.",
+          "skills": [
+            "Flutter",
+            "Caching",
+            "Pagination"
+          ]
+        }
+      ],
+      "role": "Mobile App Development Intern",
+      "organization": "GLOWSIMS",
+      "start_date": "2026-02-22",
+      "end_date": "2026-05-22"
+    },
+    {
+      "id": "axaon_24ifix",
+      "name": "AXAON — 24iFix Flutter Client",
+      "category": "internship",
+      "description": "Company Flutter mobile app for device repair service, booking and tracking. Public portfolio describes broader intended/customer workflows; backend ownership not established.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "GoRouter",
+        "REST APIs",
+        "Android",
+        "iOS"
+      ],
+      "facts": [
+        {
+          "id": "axaon_24ifix_fact_01",
+          "description": "Worked on Flutter client development for Android and iOS device-repair booking workflows.",
+          "skills": [
+            "Flutter",
+            "Dart",
+            "Android",
+            "iOS"
+          ]
+        },
+        {
+          "id": "axaon_24ifix_fact_02",
+          "description": "Implemented splash, onboarding and authentication interfaces and configured navigation with GoRouter.",
+          "skills": [
+            "Flutter",
+            "GoRouter",
+            "Authentication"
+          ]
+        },
+        {
+          "id": "axaon_24ifix_fact_03",
+          "description": "Worked on customer booking, dashboard and repair-status integration journeys as company development scope.",
+          "skills": [
+            "Flutter",
+            "REST APIs",
+            "Mobile UI"
+          ]
+        }
+      ],
+      "role": "Flutter Developer Intern (title needs confirmation)",
+      "organization": "AXAON Software",
+      "start_date": "2026-11"
+    },
+    {
+      "id": "nizaam",
+      "name": "NIZAAM / MobileShop SaaS",
+      "category": "project",
+      "description": "Independently developed retail-management SaaS for mobile-phone shops; includes tenancy, branches, POS, inventory, IMEI, credit and repair operations. Product also referred to as MobileShop SaaS in project documentation.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Riverpod",
+        "GoRouter",
+        "Supabase",
+        "PostgreSQL",
+        "PostgreSQL RLS",
+        "Drift",
+        "SQLite",
+        "Offline Sync"
+      ],
+      "facts": [
+        {
+          "id": "nizaam_fact_01",
+          "description": "Designed and developed multi-tenant and multi-branch mobile-retail ERP/POS workflows covering inventory, sales, customer credit and repairs.",
+          "skills": [
+            "Flutter",
+            "Riverpod",
+            "SaaS",
+            "PostgreSQL"
+          ]
+        },
+        {
+          "id": "nizaam_fact_02",
+          "description": "Implemented serialized-device IMEI/barcode tracking, stock workflows, supplier procurement, expense reports and customer activity.",
+          "skills": [
+            "Flutter",
+            "Inventory Management",
+            "PostgreSQL"
+          ]
+        },
+        {
+          "id": "nizaam_fact_03",
+          "description": "Implemented Supabase authentication, branch/tenant access boundaries using PostgreSQL row-level security and protected RPC workflows.",
+          "skills": [
+            "Supabase",
+            "PostgreSQL RLS",
+            "Authentication"
+          ]
+        },
+        {
+          "id": "nizaam_fact_04",
+          "description": "Developed offline SQLite/Drift persistence, queued inventory mutations, synchronization retries and idempotency safeguards.",
+          "skills": [
+            "Drift",
+            "SQLite",
+            "Offline Sync"
+          ]
+        },
+        {
+          "id": "nizaam_fact_05",
+          "description": "Implemented business-linked sales, returns, credit settlements, repair payments and ledger/receipt flows in repository-backed modules.",
+          "skills": [
+            "POS",
+            "PostgreSQL",
+            "Business Logic"
+          ]
+        },
+        {
+          "id": "nizaam_fact_06",
+          "description": "Added staff roles, subscription entitlements, scanning, printing and operational report features.",
+          "skills": [
+            "Flutter",
+            "SaaS",
+            "Access Control"
+          ]
+        },
+        {
+          "id": "nizaam_fact_07",
+          "description": "Commercialized the retail management product and iterated on feedback from shop operations.",
+          "skills": [
+            "Product Engineering",
+            "SaaS"
+          ]
+        }
+      ],
+      "role": "Independent Product Engineer",
+      "organization": "Independent",
+      "start_date": "2026",
+      "links": {}
+    },
+    {
+      "id": "brainbee",
+      "name": "BrainBee — AI-Powered Learning Platform",
+      "category": "project",
+      "description": "Co-developed COMSATS CS capstone for grades 5–12, combining Flutter learning experiences and textbook-grounded AI/RAG; not a sole-founder project.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Python",
+        "Gemini",
+        "FAISS",
+        "Embeddings",
+        "RAG",
+        "Socket.IO"
+      ],
+      "facts": [
+        {
+          "id": "brainbee_rag",
+          "description": "Co-developed textbook-grounded RAG capabilities using embedding-based semantic retrieval and FAISS.",
+          "skills": [
+            "RAG",
+            "FAISS",
+            "Embeddings",
+            "LLM"
+          ]
+        },
+        {
+          "id": "brainbee_flutter",
+          "description": "Developed Flutter student-facing learning experiences connected to backend APIs.",
+          "skills": [
+            "Flutter",
+            "Dart",
+            "REST APIs"
+          ]
+        },
+        {
+          "id": "brainbee_fact_03",
+          "description": "Implemented AI-assisted quiz and flashcard generation and learning summary functionality.",
+          "skills": [
+            "LLM",
+            "AI Integration",
+            "Node.js"
+          ]
+        },
+        {
+          "id": "brainbee_fact_04",
+          "description": "Integrated real-time peer quiz battles using Socket.IO, with gamification including leaderboards, streaks and badges.",
+          "skills": [
+            "Socket.IO",
+            "Node.js",
+            "Flutter"
+          ]
+        },
+        {
+          "id": "brainbee_fact_05",
+          "description": "Implemented or contributed to learner-progress tracking and personalized educational experiences.",
+          "skills": [
+            "Flutter",
+            "Backend",
+            "Personalization"
+          ]
+        },
+        {
+          "id": "brainbee_fact_06",
+          "description": "Submitted CVs report 3,000+ platform users and approximately 40% improvement in daily active usage following rollout; the analytics source was not attached.",
+          "skills": [
+            "Product Analytics",
+            "AI Product"
+          ]
+        }
+      ],
+      "role": "Co-developer (Final Year Project)",
+      "organization": "COMSATS University Islamabad",
+      "start_date": "2025-03",
+      "end_date": "2025-12"
+    },
+    {
+      "id": "gotcakey",
+      "name": "GotCakey (formerly Got Bakey) — Bakery Marketplace",
+      "category": "project",
+      "description": "Company/team commercial project at Crifly for an Australian client. Older CV name Got Bakey / Got Backey refers to the same application.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "BLoC",
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "Firebase",
+        "Stripe"
+      ],
+      "facts": [
+        {
+          "id": "gotcakey_fact_01",
+          "description": "Developed buyer-side Flutter flows for onboarding, signup, login, account registration and marketplace journeys.",
+          "skills": [
+            "Flutter",
+            "Dart",
+            "Authentication"
+          ]
+        },
+        {
+          "id": "gotcakey_fact_02",
+          "description": "Developed or maintained Node.js/Express REST endpoints for buyer accounts and cake-listing/order workflows.",
+          "skills": [
+            "Node.js",
+            "Express.js",
+            "REST APIs"
+          ]
+        },
+        {
+          "id": "gotcakey_fact_03",
+          "description": "Contributed to marketplace integrations and features such as custom cake orders, messaging, payments, order status and urgent baker matching within the Crifly team.",
+          "skills": [
+            "Flutter",
+            "REST APIs",
+            "Marketplace"
+          ]
+        },
+        {
+          "id": "gotcakey_fact_04",
+          "description": "One CV reports more than 1,000 Google Play downloads of the published marketplace; specific store listing was not provided.",
+          "skills": [
+            "Flutter",
+            "App Release"
+          ]
+        }
+      ],
+      "role": "Flutter / Backend Contributor",
+      "organization": "Crifly"
+    },
+    {
+      "id": "shoutsy",
+      "name": "Shoutsy — Brand & Creator Marketplace",
+      "category": "project",
+      "description": "Team/company work at Crifly; mobile product for influencer campaigns and brand-creator collaboration.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "MVVM",
+        "WebSockets",
+        "MongoDB",
+        "Express.js"
+      ],
+      "facts": [
+        {
+          "id": "shoutsy_fact_01",
+          "description": "Co-developed Flutter application features for brand/creator campaign collaboration as part of the Crifly team.",
+          "skills": [
+            "Flutter",
+            "Dart"
+          ]
+        },
+        {
+          "id": "shoutsy_fact_02",
+          "description": "Worked on Flutter state management and real-time chat/messaging workflows.",
+          "skills": [
+            "Flutter",
+            "MVVM",
+            "WebSockets"
+          ]
+        },
+        {
+          "id": "shoutsy_fact_03",
+          "description": "Product workflows include campaign agreements, milestones, asset submissions and approvals; individual ownership for every feature is not documented.",
+          "skills": [
+            "Mobile Product",
+            "Marketplace"
+          ]
+        }
+      ],
+      "role": "Flutter Developer (team contribution)",
+      "organization": "Crifly"
+    },
+    {
+      "id": "ors_map",
+      "name": "ors_map — Mapbox Navigation Engine",
+      "category": "project",
+      "description": "Open-source Dart/Flutter navigation engine, sometimes described as mapbox_nav_core.",
+      "technologies": [
+        "Dart",
+        "Flutter",
+        "Mapbox SDK",
+        "GeoJSON",
+        "Algorithms",
+        "GitHub Actions",
+        "Testing"
+      ],
+      "facts": [
+        {
+          "id": "ors_map_fact_01",
+          "description": "Designed a vendor-neutral Dart navigation engine separating route matching/progress calculations from Mapbox rendering, with an architectural boundary test.",
+          "skills": [
+            "Dart",
+            "Software Architecture",
+            "Mapbox SDK"
+          ]
+        },
+        {
+          "id": "ors_map_fact_02",
+          "description": "Implemented bounded forward-window route matching and binary-search distance lookup; local benchmark reports 40.7–71.2 µs per GPS fix on 10,000-point routes.",
+          "skills": [
+            "Dart",
+            "Algorithms",
+            "Performance Testing"
+          ]
+        },
+        {
+          "id": "ors_map_fact_03",
+          "description": "Implemented 60 FPS dead-reckoning pose animation from 1 Hz GPS, 3D vehicle rendering and four-mode camera controls.",
+          "skills": [
+            "Flutter",
+            "Dart",
+            "Mapbox SDK"
+          ]
+        },
+        {
+          "id": "ors_map_fact_04",
+          "description": "Documented 118+ unit, fuzz and stress tests with GitHub Actions CI.",
+          "skills": [
+            "Testing",
+            "GitHub Actions"
+          ]
+        }
+      ],
+      "role": "Open-Source Engineer",
+      "links": {
+        "github": "https://github.com/NasirBhotta/ors_map"
+      }
+    },
+    {
+      "id": "navdrive",
+      "name": "NavDrive — Live 3D Navigation App",
+      "category": "project",
+      "description": "Flutter navigation application using Mapbox, including a 3D vehicle visualization. Relationship to the ors_map library is not fully documented.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Mapbox SDK",
+        "GeoJSON",
+        "ModelLayer"
+      ],
+      "facts": [
+        {
+          "id": "navdrive_fact_01",
+          "description": "Implemented turn-by-turn instructions, ETA and distance, live route progress, off-route detection, rerouting and voice guidance.",
+          "skills": [
+            "Flutter",
+            "Mapbox SDK",
+            "Navigation"
+          ]
+        },
+        {
+          "id": "navdrive_fact_02",
+          "description": "Built location-driven follow-camera, recentering and guidance states.",
+          "skills": [
+            "Flutter",
+            "Location Services"
+          ]
+        },
+        {
+          "id": "navdrive_fact_03",
+          "description": "Rendered a GLB vehicle through Mapbox ModelLayer with approximately 16ms frame-based position/bearing updates.",
+          "skills": [
+            "Mapbox SDK",
+            "Flutter",
+            "3D Rendering"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flutter_ecommerce",
+      "name": "Full-Stack Flutter E-Commerce Platform",
+      "category": "project",
+      "description": "Customer and admin applications with Firebase backend services and Stripe payments.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase Auth",
+        "Firestore",
+        "FCM",
+        "Stripe",
+        "Cloud Functions",
+        "GetX"
+      ],
+      "facts": [
+        {
+          "id": "flutter_ecommerce_fact_01",
+          "description": "Built shopping, account, product catalog, wishlist, cart, checkout, orders and customer/admin flows.",
+          "skills": [
+            "Flutter",
+            "E-Commerce",
+            "GetX"
+          ]
+        },
+        {
+          "id": "flutter_ecommerce_fact_02",
+          "description": "Integrated Stripe PaymentSheet and payment processing through Firebase Cloud Functions and webhooks.",
+          "skills": [
+            "Stripe",
+            "Firebase",
+            "Cloud Functions"
+          ]
+        },
+        {
+          "id": "flutter_ecommerce_fact_03",
+          "description": "Implemented Firebase authentication, FCM push notifications and audit/admin workflows.",
+          "skills": [
+            "Firebase",
+            "FCM",
+            "Flutter"
+          ]
+        },
+        {
+          "id": "flutter_ecommerce_fact_04",
+          "description": "Built role-based administrative operations including products, analytics, withdrawals and alerts.",
+          "skills": [
+            "Flutter",
+            "Firebase",
+            "Admin Dashboard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ride_share",
+      "name": "Ride Sharing — Rider, Driver and Admin Apps",
+      "category": "project",
+      "description": "Flutter/Firebase ride-sharing application described in earlier CV.",
+      "technologies": [
+        "Flutter",
+        "Firebase",
+        "Google Maps API",
+        "Firestore",
+        "Flutter TTS"
+      ],
+      "facts": [
+        {
+          "id": "ride_share_fact_01",
+          "description": "Built multi-role Flutter flows for rider, driver and admin with Firebase backend integration.",
+          "skills": [
+            "Flutter",
+            "Firebase"
+          ]
+        },
+        {
+          "id": "ride_share_fact_02",
+          "description": "Implemented real-time ride tracking, route polylines, navigation guidance and ride-matching logic.",
+          "skills": [
+            "Flutter",
+            "Google Maps API",
+            "Location Services"
+          ]
+        },
+        {
+          "id": "ride_share_fact_03",
+          "description": "Built live admin metrics and ride-management views using Firestore and charts.",
+          "skills": [
+            "Flutter",
+            "Firestore",
+            "Dashboard"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backend_testing",
+      "name": "Backend Evaluation & Stress Testing",
+      "category": "project",
+      "description": "Benchmark and comparative backend implementations across multiple frameworks and concurrency configurations.",
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "Fastify",
+        "NestJS",
+        "Go",
+        "Fiber",
+        "k6",
+        "Nginx",
+        "Brotli"
+      ],
+      "facts": [
+        {
+          "id": "backend_testing_fact_01",
+          "description": "Implemented five backend variants and 16 k6 load/stress scenarios measuring throughput, latency, failures and CPU usage.",
+          "skills": [
+            "Performance Testing",
+            "k6",
+            "Backend"
+          ]
+        },
+        {
+          "id": "backend_testing_fact_02",
+          "description": "Evaluated cluster workers, Brotli compression and Nginx caching under concurrent load.",
+          "skills": [
+            "Node.js",
+            "Nginx",
+            "Brotli"
+          ]
+        },
+        {
+          "id": "backend_testing_fact_03",
+          "description": "Recorded 2,029 requests/sec with zero failures and approximately 86% lower socket output in one local 40,000-request Brotli test at concurrency 200; not a universal throughput guarantee.",
+          "skills": [
+            "Benchmarking",
+            "Node.js",
+            "Performance Testing"
+          ]
+        }
+      ],
+      "links": {
+        "github": "https://github.com/NasirBhotta/Backend-Evaluation-Stress-Testing"
+      }
+    },
+    {
+      "id": "uniproof",
+      "name": "UniProof AI — France University Research Agent",
+      "category": "project",
+      "description": "Three-layer agentic university research and admissions-program matching system; development status varies by source, so treat as evolving project.",
+      "technologies": [
+        "Python",
+        "Multi-Agent Systems",
+        "LLMs",
+        "Document Analysis",
+        "Ranking",
+        "Automation"
+      ],
+      "facts": [
+        {
+          "id": "uniproof_fact_01",
+          "description": "Designed three layers for applicant document extraction, regional university research and programme eligibility assessment.",
+          "skills": [
+            "Python",
+            "AI Agents",
+            "Document Analysis"
+          ]
+        },
+        {
+          "id": "uniproof_fact_02",
+          "description": "Coordinated agent-assisted ranking/shortlisting of seven university options with public/private and Campus France EEF comparison views.",
+          "skills": [
+            "AI Agents",
+            "Ranking",
+            "Research Automation"
+          ]
+        },
+        {
+          "id": "uniproof_fact_03",
+          "description": "Developing workflows to compare applicant eligibility and programme requirements for university applications.",
+          "skills": [
+            "Python",
+            "Agentic AI",
+            "Automation"
+          ]
+        }
+      ],
+      "links": {
+        "github": "https://github.com/NasirBhotta/uniproof_ai"
+      }
+    },
+    {
+      "id": "recruitflow",
+      "name": "RecruitFlow — AI-Assisted Recruitment ATS",
+      "category": "project",
+      "description": "Python and Streamlit recruitment dashboard using Gmail and direct PDFs for resume intake, structured extraction, job-specific ranking and approval-gated outreach. Repo reviewed 15 Nov 2026.",
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "Pydantic",
+        "SQLite",
+        "pypdf",
+        "Gmail API",
+        "Google Sheets API",
+        "Gemini",
+        "Antigravity"
+      ],
+      "facts": [
+        {
+          "id": "recruitflow_fact_01",
+          "description": "Implemented Gmail attachment and direct-PDF intake, PDF parsing and extraction into structured candidate profiles.",
+          "skills": [
+            "Python",
+            "pypdf",
+            "Gmail API",
+            "Pydantic"
+          ]
+        },
+        {
+          "id": "recruitflow_fact_02",
+          "description": "Built deterministic ATS matching with required/preferred skills, experience signals and transparent comparison breakdowns.",
+          "skills": [
+            "Python",
+            "Ranking",
+            "ATS"
+          ]
+        },
+        {
+          "id": "recruitflow_fact_03",
+          "description": "Used SQLite as primary durable record with attachment deduplication, normalized-email identity reconciliation and Sheets reporting.",
+          "skills": [
+            "SQLite",
+            "Google Sheets API",
+            "Data Engineering"
+          ]
+        },
+        {
+          "id": "recruitflow_fact_04",
+          "description": "Implemented recruiter status gates, explicit approval for interview/rejection emails and simulated outbox workflows.",
+          "skills": [
+            "Workflow Automation",
+            "Gmail API"
+          ]
+        },
+        {
+          "id": "recruitflow_fact_05",
+          "description": "Supports Gemini extraction, an optional local Antigravity provider and deterministic demo fallback; does not establish production extraction accuracy.",
+          "skills": [
+            "LLM Integration",
+            "Pydantic",
+            "Python"
+          ]
+        },
+        {
+          "id": "recruitflow_fact_06",
+          "description": "Project documentation reports 21 pytest tests passed on 15 November 2026; does not confirm live Gmail/Sheets integration success.",
+          "skills": [
+            "pytest",
+            "Testing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cvflow_outline",
+      "name": "CVFlow — Resume Intake Automation (Outline)",
+      "category": "project",
+      "description": "Earlier CV-intake automation concept/outline involving Gmail, AI parsing and Sheets. Relationship to the separately documented RecruitFlow implementation is not established.",
+      "technologies": [
+        "Gmail",
+        "Google Sheets",
+        "AI Parsing",
+        "Automation"
+      ],
+      "facts": [
+        {
+          "id": "cvflow_outline_fact_01",
+          "description": "Documented concept for Gmail-based CV intake, automated parsing, skill extraction and tracking in Sheets; implementation boundaries require clarification.",
+          "skills": [
+            "Automation",
+            "Resume Parsing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portfolio_site",
+      "name": "Engineering Portfolio — 16 AI Case Studies",
+      "category": "project",
+      "description": "Next.js/TypeScript production portfolio at the root / with case studies /work/[slug] and 16 AI studies at /agents/[slug]. The old cinematic homepage was preserved in a promotion workspace.",
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "CSS",
+        "Server Routes",
+        "Testing"
+      ],
+      "facts": [
+        {
+          "id": "portfolio_site_fact_01",
+          "description": "Promoted the approved interface-to-infrastructure design to the permanent homepage and maintained redirects from legacy /prototype URLs.",
+          "skills": [
+            "Next.js",
+            "Frontend Architecture"
+          ]
+        },
+        {
+          "id": "portfolio_site_fact_02",
+          "description": "Documented four featured agent workflows and twelve additional AI studies with source attribution, implementation details and limitations.",
+          "skills": [
+            "Technical Writing",
+            "Portfolio Engineering",
+            "Agentic AI"
+          ]
+        },
+        {
+          "id": "portfolio_site_fact_03",
+          "description": "Verified production build generating 16 agent pages, browser checks at desktop/mobile widths and no horizontal overflow.",
+          "skills": [
+            "Next.js",
+            "Testing"
+          ]
+        },
+        {
+          "id": "portfolio_site_fact_04",
+          "description": "Implemented portfolio project case-study routes with preserved attribution between independently owned products, team work and course exercises.",
+          "skills": [
+            "Next.js",
+            "Content Engineering"
+          ]
+        }
+      ],
+      "links": {
+        "website": "https://portfolio-nizaam1.vercel.app/"
+      }
+    },
+    {
+      "id": "portfolio_assistant",
+      "name": "Live Portfolio AI Representative — Hugging Face / Gradio",
+      "category": "project",
+      "description": "Server-side Next.js assistant adapter connected to a Hugging Face Gradio Space. This is distinct from the course-only profile assistant prototype.",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "@gradio/client",
+        "Gradio",
+        "Hugging Face Spaces",
+        "OpenAI API",
+        "Pushover"
+      ],
+      "facts": [
+        {
+          "id": "portfolio_assistant_fact_01",
+          "description": "Integrated /api/assistant with a server-only provider that creates a fresh Gradio session and submits /chat with a message to the hosted Space.",
+          "skills": [
+            "Next.js",
+            "@gradio/client",
+            "API Integration"
+          ]
+        },
+        {
+          "id": "portfolio_assistant_fact_02",
+          "description": "Bounded recent visitor history and current portfolio facts are supplied per request; sessions are closed after completion to avoid cross-visitor state leakage.",
+          "skills": [
+            "Session Management",
+            "Backend",
+            "Privacy"
+          ]
+        },
+        {
+          "id": "portfolio_assistant_fact_03",
+          "description": "Implemented time budgets, labelled local-guide fallback and per-instance upstream cooldown; kept provider secrets server-side.",
+          "skills": [
+            "Resilience",
+            "Security",
+            "Timeout Handling"
+          ]
+        },
+        {
+          "id": "portfolio_assistant_fact_04",
+          "description": "Production integration was reported to return live llm-mode responses in about 7–8 seconds, and eight transport/provider tests passed.",
+          "skills": [
+            "Testing",
+            "LLM Integration"
+          ]
+        },
+        {
+          "id": "portfolio_assistant_fact_05",
+          "description": "Hosted Gradio Space uses GPT-4.1-mini and can forward voluntarily supplied contact details or unresolved questions through Pushover.",
+          "skills": [
+            "Gradio",
+            "OpenAI API",
+            "Pushover"
+          ]
+        }
+      ],
+      "links": {
+        "website": "https://portfolio-nizaam1.vercel.app/",
+        "space": "https://bhotta-career-conversation.hf.space"
+      }
+    },
+    {
+      "id": "brainbee_research",
+      "name": "BrainBee — Independent AI Learning Usability Research Proposal",
+      "category": "project",
+      "description": "Research proposal, not a completed empirical trial, studying AI guidance versus non-AI navigation in resource-constrained learning.",
+      "technologies": [
+        "Research Design",
+        "Human-AI Interaction",
+        "Usability",
+        "AI Education"
+      ],
+      "facts": [
+        {
+          "id": "brainbee_research_fact_01",
+          "description": "Prepared a proposal comparing constrained AI guidance against non-AI navigation for mobile learners in Punjab, considering accessibility and affordability.",
+          "skills": [
+            "Research Design",
+            "Human-AI Interaction"
+          ]
+        },
+        {
+          "id": "brainbee_research_fact_02",
+          "description": "Defined counterbalanced usability study plans and measures for task success, errors, assistance, latency and cost; recruitment and empirical results remain planned.",
+          "skills": [
+            "Usability Testing",
+            "Evaluation Design"
+          ]
+        }
+      ],
+      "role": "Independent Research",
+      "start_date": "2025"
+    },
+    {
+      "id": "ai_profile_study",
+      "name": "Profile & Lead Capture Assistant — Course Prototype",
+      "category": "project",
+      "description": "Course-based adaptation of exercises from Ed Donner's Master AI Agentic Engineering curriculum; not presented as an independently originated product. Local source: 1_foundations/app.py",
+      "technologies": [
+        "Python",
+        "Gradio",
+        "OpenAI",
+        "PyPDF",
+        "Function Calling",
+        "Pushover"
+      ],
+      "facts": [
+        {
+          "id": "ai_profile_study_fact_01",
+          "description": "Explored a profile-grounded Gradio chatbot using PDF and text context, function calls and notification tools.",
+          "skills": [
+            "Python",
+            "Gradio",
+            "Function Calling"
+          ]
+        },
+        {
+          "id": "ai_profile_study_fact_02",
+          "description": "Course source still contains template identity Ed Donner and requires personal configuration before describing it as deployed personal assistant.",
+          "skills": [
+            "LLM Integration",
+            "Python"
+          ]
+        }
+      ],
+      "role": "Course-Based AI Engineering Study"
+    },
+    {
+      "id": "ai_multimodel_eval",
+      "name": "Multi-Model Response Evaluation — Course Study",
+      "category": "project",
+      "description": "Course-based adaptation of exercises from Ed Donner's Master AI Agentic Engineering curriculum; not presented as an independently originated product. Local source: 1_foundations/2_lab2.ipynb; 3_lab3.ipynb",
+      "technologies": [
+        "Python",
+        "Pydantic",
+        "LLM APIs"
+      ],
+      "facts": [
+        {
+          "id": "ai_multimodel_eval_fact_01",
+          "description": "Explored comparing model responses and using Pydantic evaluation decisions to revise answers using feedback.",
+          "skills": [
+            "Python",
+            "Pydantic",
+            "Evaluation Loops"
+          ]
+        }
+      ],
+      "role": "Course-Based AI Engineering Study"
+    },
+    {
+      "id": "ai_task_planner",
+      "name": "Tool-Based Task Planner — Course Study",
+      "category": "project",
+      "description": "Course-based adaptation of exercises from Ed Donner's Master AI Agentic Engineering curriculum; not presented as an independently originated product. Local source: 1_foundations/5_extra.ipynb",
+      "technologies": [
+        "Python",
+        "Function Calling"
+      ],
+      "facts": [
+        {
+          "id": "ai_task_planner_fact_01",
+          "description": "Explored multi-step task planning with function calls and execution of tool requests in Python.",
+          "skills": [
+            "Python",
+            "Function Calling"
+          ]
+        }
+      ],
+      "role": "Course-Based AI Engineering Study"
+    },
+    {
+      "id": "ai_email_agent",
+      "name": "Sales Email Agent Workflow — Course Study",
+      "category": "project",
+      "description": "Course-based adaptation of exercises from Ed Donner's Master AI Agentic Engineering curriculum; not presented as an independently originated product. Local source: 2_openai/2_lab2.ipynb; 3_lab3.ipynb",
+      "technologies": [
+        "Python",
+        "OpenAI Agents SDK",
+        "SendGrid"
+      ],
+      "facts": [
+        {
+          "id": "ai_email_agent_fact_01",
+          "description": "Explored specialist-agent workflows for drafting and sending sales emails using an email integration.",
+          "skills": [
+            "OpenAI Agents SDK",
+            "Tool Use",
+            "Python"
+          ]
+        }
+      ],
+      "role": "Course-Based AI Engineering Study"
+    },
+    {
+      "id": "ai_deep_research",
+      "name": "Deep Research Assistant — Course-Based Implementation",
+      "category": "project",
+      "description": "Course-based adaptation of exercises from Ed Donner's Master AI Agentic Engineering curriculum; not presented as an independently originated product. Local source: 2_openai/deep_research/",
+      "technologies": [
+        "Python",
+        "OpenAI Agents SDK",
+        "Gradio"
+      ],
+      "facts": [
+        {
+          "id": "ai_deep_research_fact_01",
+          "description": "Implemented/studied research planning, concurrent searches and synthesis into a structured report with progress reporting.",
+          "skills": [
+            "AI Agents",
+            "Research Automation",
+            "Python"
+          ]
+        },
+        {
+          "id": "ai_deep_research_fact_02",
+          "description": "Workflow documentation includes HTML email integration; automated live email sending was not run during the source review.",
+          "skills": [
+            "Tool Use",
+            "Email Integration"
+          ]
+        }
+      ],
+      "role": "Course-Based AI Engineering Study"
+    },
+    {
+      "id": "ai_debate",
+      "name": "Multi-Agent Debate — Course Study",
+      "category": "project",
+      "description": "Course-based adaptation of exercises from Ed Donner's Master AI Agentic Engineering curriculum; not presented as an independently originated product. Local source: 3_crew/debate/",
+      "technologies": [
+        "Python",
+        "CrewAI"
+      ],
+      "facts": [
+        {
+          "id": "ai_debate_fact_01",
+          "description": "Explored coordinated multiple-agent debate and comparison of positions using CrewAI roles and tasks.",
+          "skills": [
+            "CrewAI",
+            "Multi-Agent Systems"
+          ]
+        }
+      ],
+      "role": "Course-Based AI Engineering Study"
+    },
+    {
+      "id": "ai_financial_research",
+      "name": "Financial Research Crew — Course Study",
+      "category": "project",
+      "description": "Course-based adaptation of exercises from Ed Donner's Master AI Agentic Engineering curriculum; not presented as an independently originated product. Local source: 3_crew/financial_researcher/",
+      "technologies": [
+        "Python",
+        "CrewAI",
+        "Serper"
+      ],
+      "facts": [
+        {
+          "id": "ai_financial_research_fact_01",
+          "description": "Explored specialist researcher and analyst agents for financial-company investigation.",
+          "skills": [
+            "CrewAI",
+            "Research Automation"
+          ]
+        }
+      ],
+      "role": "Course-Based AI Engineering Study"
+    },
+    {
+      "id": "ai_stock_picker",
+      "name": "Trending Company Research & Selection — Course Study",
+      "category": "project",
+      "description": "Course-based adaptation of exercises from Ed Donner's Master AI Agentic Engineering curriculum; not presented as an independently originated product. Local source: 3_crew/stock_picker/",
+      "technologies": [
+        "Python",
+        "CrewAI",
+        "Pydantic"
+      ],
+      "facts": [
+        {
+          "id": "ai_stock_picker_fact_01",
+          "description": "Explored company discovery, structured selection and memory-enabled workflows in CrewAI.",
+          "skills": [
+            "CrewAI",
+            "Structured Outputs",
+            "Pydantic"
+          ]
+        }
+      ],
+      "role": "Course-Based AI Engineering Study"
+    },
+    {
+      "id": "ai_coding_agent",
+      "name": "Python Coding Agent — Course Study",
+      "category": "project",
+      "description": "Course-based adaptation of exercises from Ed Donner's Master AI Agentic Engineering curriculum; not presented as an independently originated product. Local source: 3_crew/coder/",
+      "technologies": [
+        "Python",
+        "CrewAI",
+        "Docker"
+      ],
+      "facts": [
+        {
+          "id": "ai_coding_agent_fact_01",
+          "description": "Explored agent-driven code generation and execution workflows; do not imply unattended production code execution.",
+          "skills": [
+            "CrewAI",
+            "Python",
+            "Docker"
+          ]
+        }
+      ],
+      "role": "Course-Based AI Engineering Study"
+    },
+    {
+      "id": "ai_engineering_team",
+      "name": "AI Engineering Team — Course-Based Implementation",
+      "category": "project",
+      "description": "Course-based adaptation of exercises from Ed Donner's Master AI Agentic Engineering curriculum; not presented as an independently originated product. Local source: 3_crew/engineering_team/",
+      "technologies": [
+        "Python",
+        "CrewAI",
+        "Gradio"
+      ],
+      "facts": [
+        {
+          "id": "ai_engineering_team_fact_01",
+          "description": "Explored a specialist-agent workflow spanning software design, backend generation, Gradio interface and unit tests.",
+          "skills": [
+            "CrewAI",
+            "Multi-Agent Systems",
+            "Code Generation"
+          ]
+        }
+      ],
+      "role": "Course-Based AI Engineering Study"
+    },
+    {
+      "id": "ai_sidekick",
+      "name": "Browser & Research Sidekick — Course-Based LangGraph Study",
+      "category": "project",
+      "description": "Course-based adaptation of exercises from Ed Donner's Master AI Agentic Engineering curriculum; not presented as an independently originated product. Local source: 4_langgraph/",
+      "technologies": [
+        "Python",
+        "LangGraph",
+        "Playwright"
+      ],
+      "facts": [
+        {
+          "id": "ai_sidekick_fact_01",
+          "description": "Studied tool routing, browser/search/Python/file operations and iterative evaluator feedback using explicit LangGraph state.",
+          "skills": [
+            "LangGraph",
+            "Playwright",
+            "Agentic Loops"
+          ]
+        }
+      ],
+      "role": "Course-Based AI Engineering Study"
+    },
+    {
+      "id": "ai_autogen_labs",
+      "name": "AutoGen Agent Experiments — Course Studies",
+      "category": "project",
+      "description": "Course-based adaptation of exercises from Ed Donner's Master AI Agentic Engineering curriculum; not presented as an independently originated product. Local source: 5_autogen/*lab*.ipynb",
+      "technologies": [
+        "Python",
+        "AutoGen"
+      ],
+      "facts": [
+        {
+          "id": "ai_autogen_labs_fact_01",
+          "description": "Explored AutoGen AgentChat/Core agents, message-passing and agent-team coordination in notebooks.",
+          "skills": [
+            "AutoGen",
+            "Multi-Agent Systems"
+          ]
+        }
+      ],
+      "role": "Course-Based AI Engineering Study"
+    },
+    {
+      "id": "ai_dynamic_creator",
+      "name": "Dynamic Agent Creator — Course Study",
+      "category": "project",
+      "description": "Course-based adaptation of exercises from Ed Donner's Master AI Agentic Engineering curriculum; not presented as an independently originated product. Local source: 5_autogen/creator.py; world.py",
+      "technologies": [
+        "Python",
+        "AutoGen",
+        "gRPC",
+        "asyncio"
+      ],
+      "facts": [
+        {
+          "id": "ai_dynamic_creator_fact_01",
+          "description": "Explored dynamic agent creation, asynchronous coordination and gRPC-based runtime interactions.",
+          "skills": [
+            "AutoGen",
+            "asyncio",
+            "gRPC"
+          ]
+        }
+      ],
+      "role": "Course-Based AI Engineering Study"
+    },
+    {
+      "id": "ai_paper_trading",
+      "name": "Autonomous Paper Trading System — MCP Learning Platform",
+      "category": "project",
+      "description": "Course-based multi-agent trading architecture augmented with custom local integrations. All trades are simulated; not real-money execution.",
+      "technologies": [
+        "Python",
+        "MCP",
+        "SQLite",
+        "Gradio",
+        "Plotly",
+        "asyncio",
+        "AI Agents"
+      ],
+      "facts": [
+        {
+          "id": "ai_paper_trading_fact_01",
+          "description": "Explored strategy-based trader agents using MCP account tools for simulated balances, holdings and trading instructions.",
+          "skills": [
+            "MCP",
+            "AI Agents",
+            "Tool Use"
+          ]
+        },
+        {
+          "id": "ai_paper_trading_fact_02",
+          "description": "Used SQLite accounts, transaction logs and portfolio dashboards for simulated monitoring.",
+          "skills": [
+            "SQLite",
+            "Gradio",
+            "Plotly"
+          ]
+        },
+        {
+          "id": "ai_paper_trading_fact_03",
+          "description": "Integrated/or studied bounded agent execution and concurrent research tasks; the original architecture is course-derived.",
+          "skills": [
+            "asyncio",
+            "Agent Orchestration"
+          ]
+        },
+        {
+          "id": "ai_paper_trading_fact_04",
+          "description": "System operates with simulated accounts; no real-money broker orders or profitability claims.",
+          "skills": [
+            "Paper Trading",
+            "Risk Boundaries"
+          ]
+        }
+      ],
+      "role": "Course-Based Platform + Custom Extensions"
+    },
+    {
+      "id": "antigravity_adapter",
+      "name": "Antigravity — Agents SDK Model Adapter",
+      "category": "project",
+      "description": "Documented custom integration extending the course-based trading system; enables OpenAI Agents SDK-style model calls to a local provider.",
+      "technologies": [
+        "Python",
+        "OpenAI Agents SDK",
+        "Function Calling",
+        "asyncio",
+        "LLM Adapters"
+      ],
+      "facts": [
+        {
+          "id": "antigravity_adapter_fact_01",
+          "description": "Implemented a provider adapter converting SDK conversation history, system instructions and function schemas to a local Antigravity request format.",
+          "skills": [
+            "Python",
+            "LLM Adapters",
+            "OpenAI Agents SDK"
+          ]
+        },
+        {
+          "id": "antigravity_adapter_fact_02",
+          "description": "Parsed/validated JSON tool-call requests and translated permitted calls into SDK tool call response objects.",
+          "skills": [
+            "Function Calling",
+            "Pydantic",
+            "Python"
+          ]
+        },
+        {
+          "id": "antigravity_adapter_fact_03",
+          "description": "Serialized provider access and bridged synchronous provider operations using asyncio.to_thread.",
+          "skills": [
+            "asyncio",
+            "Concurrency",
+            "Python"
+          ]
+        },
+        {
+          "id": "antigravity_adapter_fact_04",
+          "description": "Documented limitations: no streaming, structured outputs or handoffs in the adapter reviewed.",
+          "skills": [
+            "LLM Integration",
+            "Engineering Tradeoffs"
+          ]
+        }
+      ],
+      "role": "Custom Integration",
+      "links": {}
+    },
+    {
+      "id": "ai_crypto_extension",
+      "name": "Crypto Quotes & Dashboard Extension — Paper Trading",
+      "category": "project",
+      "description": "Custom extension of the course-derived simulated trading platform; not a standalone live brokerage.",
+      "technologies": [
+        "Python",
+        "SQLite",
+        "Coinbase API",
+        "Plotly",
+        "Gradio",
+        "HTTP APIs"
+      ],
+      "facts": [
+        {
+          "id": "ai_crypto_extension_fact_01",
+          "description": "Added crypto USD pair normalization, fractional positions and quote-freshness validation for public Coinbase prices.",
+          "skills": [
+            "Python",
+            "Coinbase API",
+            "Data Validation"
+          ]
+        },
+        {
+          "id": "ai_crypto_extension_fact_02",
+          "description": "Implemented quote caching and separate stock/crypto/demo account data paths to avoid cross-account effects.",
+          "skills": [
+            "Caching",
+            "SQLite",
+            "Data Integrity"
+          ]
+        },
+        {
+          "id": "ai_crypto_extension_fact_03",
+          "description": "Separated valuation snapshots from holdings updates so dashboard refresh does not overwrite newer simulated account state.",
+          "skills": [
+            "SQLite",
+            "Data Integrity",
+            "Dashboard"
+          ]
+        }
+      ],
+      "role": "Custom Integration"
+    },
+    {
+      "id": "resume_agent_mvp",
+      "name": "Evidence-Grounded Resume Agent — In Development",
+      "category": "project",
+      "description": "Personal job-description-aware CV tailoring system being developed in Python with LangGraph feedback loops and user-supplied DOCX template planned; not yet finished.",
+      "technologies": [
+        "Python",
+        "uv",
+        "Pydantic",
+        "LangGraph",
+        "Local LLM Bridge",
+        "OpenAI-compatible API"
+      ],
+      "facts": [
+        {
+          "id": "resume_agent_mvp_fact_01",
+          "description": "Implemented master career profile models, JSON persistence, JD analysis, fact retrieval and initial writer/evaluator nodes in LangGraph.",
+          "skills": [
+            "Python",
+            "Pydantic",
+            "LangGraph"
+          ]
+        },
+        {
+          "id": "resume_agent_mvp_fact_02",
+          "description": "Ran a Writer → Evaluator → Writer revision loop against an OpenAI-compatible local Antigravity bridge; one revision was reported to pass evaluator.",
+          "skills": [
+            "LangGraph",
+            "Agentic Loops",
+            "LLM Integration"
+          ]
+        },
+        {
+          "id": "resume_agent_mvp_fact_03",
+          "description": "Template-preserving two-page DOCX/PDF rendering, human approval and full frontend are planned rather than completed.",
+          "skills": [
+            "Document Generation",
+            "Human-in-the-Loop"
+          ]
+        }
+      ],
+      "role": "Independent Project",
+      "start_date": "2026-11"
+    }
+  ],
+  "education": [
+    {
+      "institution": "COMSATS University Islamabad",
+      "degree": "BS Computer Science",
+      "graduation_year": 2026,
+      "cgpa": 3.23
+    },
+    {
+      "institution": "Punjab Group of Colleges, Phalia Campus",
+      "degree": "FSc Pre-Engineering",
+      "graduation_year": 2021,
+      "percentage": 97.36
+    }
+  ]
+}

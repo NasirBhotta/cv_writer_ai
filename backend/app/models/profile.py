@@ -12,14 +12,33 @@ class WorkItem(BaseModel):
     id: str
     name: str
     category: str  # project, internship, job
+    role: str = ""
+    organization: str | None = None
+    start_date: str | None = None
+    end_date: str | None = None
+    links: dict[str, str] = Field(default_factory=dict)
     description: str
     technologies: list[str] = Field(default_factory=list)
     facts: list[CareerFact] = Field(default_factory=list)
 
 
+class Education(BaseModel):
+    institution: str
+    degree: str
+    graduation_year: int | None = None
+    cgpa: float | None = None
+    percentage: float | None = None
+
+
 class MasterProfile(BaseModel):
     name: str
+    headline: str | None = None
     email: str | None = None
+    phone: str | None = None
+    github: str | None = None
+    linkedin: str | None = None
+    portfolio: str | None = None
+    education: list[Education] = Field(default_factory=list)
     skills: list[str] = Field(default_factory=list)
     work_items: list[WorkItem] = Field(default_factory=list)
 
