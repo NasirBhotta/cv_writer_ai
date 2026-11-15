@@ -13,7 +13,9 @@ class LLMClient:
             base_url="http://127.0.0.1:8001/v1",
             api_key="antigravity-local",
             timeout=120.0,
-            max_retries=3,
+            # A failed bridge response may still leave generation running in the IDE.
+            # Avoid submitting the same prompt again automatically.
+            max_retries=0,
         )
         self.model = "gpt-4o"
 
