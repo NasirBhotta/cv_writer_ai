@@ -1,5 +1,5 @@
 
-from typing import TypedDict, NotRequired, Literal
+from typing import TypedDict, NotRequired, Literal, Any
 
 
 class ResumeAgentState(TypedDict):
@@ -10,7 +10,7 @@ class ResumeAgentState(TypedDict):
 
     # Profile retrieval
     selected_fact_ids: NotRequired[list[str]]
-
+    
     # Resume generation
     resume_draft: NotRequired[str]
 
@@ -22,3 +22,4 @@ class ResumeAgentState(TypedDict):
     # Output & approval
     pdf_path: NotRequired[str]
     approved: NotRequired[bool]
+    job_analysis: NotRequired[dict[str, Any]]
