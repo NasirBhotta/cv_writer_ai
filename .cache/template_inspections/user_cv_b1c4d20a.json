@@ -1,0 +1,693 @@
+{
+  "filename": "user_cv.docx",
+  "sha256": "b1c4d20a4d0d48d06a4e7bcdfa85fca78872925b60717a92bc2fa602fe63147a",
+  "blocks": [
+    {
+      "block_id": "body/0",
+      "text": "NASIR SHAHZAD",
+      "style_name": "Normal",
+      "alignment": "CENTER (1)",
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/1",
+      "text": "FLUTTER DEVELOPER  |  ON-DEVICE AI  |  DEVELOPER RELATIONS & TECHNICAL CONTENT",
+      "style_name": "Normal",
+      "alignment": "CENTER (1)",
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/2",
+      "text": "dev.nasirbhutta@gmail.com  |  +92 313 757 6531  |  LinkedIn  |  GitHub  |  Islamabad, Pakistan",
+      "style_name": "Normal",
+      "alignment": "CENTER (1)",
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": false
+    },
+    {
+      "block_id": "body/3",
+      "text": "Portfolio  |  Technical content: Instagram @vibecode_unpacked  |  RunAnywhere video",
+      "style_name": "Normal",
+      "alignment": "CENTER (1)",
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": false
+    },
+    {
+      "block_id": "body/4",
+      "text": "PROFILE",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/5",
+      "text": "Flutter/full-stack developer with 1+ year of professional experience building mobile products and hands-on Android local-inference work. Focused on tracing SDK behavior, testing what the evidence supports, and turning findings into developer-facing explanations across Flutter, AI/RAG, and short-form technical content.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": false
+    },
+    {
+      "block_id": "body/6",
+      "text": "FEATURED TECHNICAL WORK SAMPLE | LOCAL AI ON ANDROID",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/7",
+      "text": "RunAnywhere Flutter starter — Qwen3.5-0.8B Q4_K_M on TECNO KM6 / Android CPU\tNov 2026",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/8",
+      "text": "• Investigated blank and delayed outputs in a local-model chat flow. Traced the original Fast-mode control issue to native template integration and prepared a local candidate patch forwarding the mode through Jinja-capable template rendering, with stream classification and token-accounting corrections. Narrow native checks and user-run Flutter checks passed; it is not merged upstream.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/9",
+      "text": "• The post-patch joke capture remained blank: 1,024 output tokens over 116.504 seconds, zero answer characters, and finish reason `length`. The app-selected total output allowance was exhausted; this does not prove another native defect.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/10",
+      "text": "• User-supplied Flutter debug logs for one arithmetic prompt showed Fast at 1.981 s / 1 output token and Reasoning at 96.867 s / 844 tokens; both displayed “4”. Reasoning appeared at 1.597 s, but answer text arrived at 96.860 s. This is a mode comparison, not an engine speedup.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/11",
+      "text": "• The app selects 256 output tokens for Fast and 1,024 for Reasoning; native decoding enforces the total allowance. Thinking can consume it before an answer appears. This is a local resource limit, not a per-token API bill.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/12",
+      "text": "• A separate native budget pilot showed the trade-off: a 32-token arithmetic cap took 5.022 s but gave a wrong answer; a 32-token discount run took 99.273 s and remained unfinished. The prototype was not deployed to Flutter.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/13",
+      "text": "Methods and limits: Android CPU only, one phone/model quantization; the Flutter timings are user-supplied debug-run evidence and the installed binary hash was not verified. Native and Flutter harnesses are separate. No NPU result or controlled benchmark is claimed. Investigation and development were AI-assisted.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": false
+    },
+    {
+      "block_id": "body/14",
+      "text": "TECHNICAL CONTENT & VIDEO",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/15",
+      "text": "Production Search — short-form technical explainer series",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/16",
+      "text": "• Produced explainers on query normalization, debouncing, request control, caching, database indexing, ranking, and pagination; developed scripts, visual sequences, and short-form edits for @vibecode_unpacked.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/17",
+      "text": "• Video and visual work includes CapCut editing, storyboards, motion-graphic inserts, product walkthroughs, screen-based demonstrations, and technical diagrams; created hook, phone-rotation, and service-CTA clips for a website showcase.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/18",
+      "text": "RECENT MOBILE ENGINEERING EXPERIENCE",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/19",
+      "text": "Mobile App Development Intern — GLOWSIMS\tFeb 2026 – May 2026",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/20",
+      "text": "• Optimized LMS APIs with indexing and query improvements, reducing p95 response latency from 1,100 ms to 420 ms (62%).",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/21",
+      "text": "• Automated student enrollment and attendance workflows, reducing manual steps by 67% and attendance processing time by 69%.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/22",
+      "text": "• Improved the Flutter TALIB dashboard using caching, lazy loading, and pagination; load time moved from 3.2 s to 1.4 s (56%). TALIB has 10K+ Google Play downloads.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/23",
+      "text": "EARLIER EXPERIENCE — CRIFLY",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/24",
+      "text": "Part-time Full-Stack Flutter Developer — CRIFLY\tJan 2025 – Feb 2026",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/25",
+      "text": "• Developed six Flutter applications with 95%+ code reuse across Android and iOS; integrated 20+ REST endpoints, Firebase authentication, real-time data, and Node.js/Express/MongoDB services.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/26",
+      "text": "• Applied MVVM and BLoC, reduced code complexity by approximately 30%, fixed application defects, and supported testing and release preparation.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/27",
+      "text": "• Built reusable UI components and backend-connected feature screens across product modules, including Shoutsy (influencer marketplace) and GotCakey (cake-ordering app); collaborated on team delivery.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/28",
+      "text": "Full-Stack Flutter Developer Intern — CRIFLY\tJun 2024 – Sep 2024",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/29",
+      "text": "• Progressed from UI implementation to full feature development; supported Firebase/REST integration, testing, and debugging.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/30",
+      "text": "Full-Stack E-Commerce Platform\tFlutter, Firebase, Stripe",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/31",
+      "text": "• Built customer and admin apps with Stripe payments through Cloud Functions, wallets, webhooks, and audit logs.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/33",
+      "text": "NASIR SHAHZAD  |  TECHNICAL CONTENT, AI & SELECTED PROJECTS",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/34",
+      "text": "portfolio-nizaam1.vercel.app  |  github.com/nasirbhotta  |  linkedin.com/in/me-bhotta",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [],
+      "has_bold_run": false
+    },
+    {
+      "block_id": "body/35",
+      "text": "AI AGENTS & RESEARCH",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/36",
+      "text": "University Research Agent — Multi-Agent Programme Matching\tIndependent project",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/37",
+      "text": "• Designed a three-layer workflow for applicant-document extraction, regional programme research, and eligibility assessment; the prototype ranks seven study options and compares public/private and Campus France EEF routes.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/38",
+      "text": "Agentic AI & Automation Portfolio\tPython | OpenAI Agents SDK, CrewAI, LangGraph, MCP",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/39",
+      "text": "• Built 10+ AI-agent/RAG prototypes, including a Deep Research Agent, AI SDR, multi-agent resume builder, and PSX/crypto analysis agents; explored tool orchestration, retrieval, and structured task flows.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/40",
+      "text": "TaskMorph — Adaptive Multi-Agent Research System\tIn progress",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/41",
+      "text": "• Scoping a task-driven orchestration design that selects only the agents and tools needed for a research task, with token efficiency and output quality as explicit goals; use cases include job research and multi-source investigation.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/42",
+      "text": "CVFlow — AI-Assisted Recruitment Workflow\tGmail, Sheets, LLM parsing",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/43",
+      "text": "• Designed a CV intake flow that extracts candidate skills and profile data, tracks application status in Sheets, and supports interview-invitation emails from a Gmail-based workflow.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/44",
+      "text": "Portfolio AI Representative\tIntegration in progress",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/45",
+      "text": "• Developed a conversational assistant for the software portfolio so visitors can explore projects and technical experience through questions; portfolio integration is in progress.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/46",
+      "text": "SELECTED ENGINEERING & AI PROJECTS",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/47",
+      "text": "BrainBee — AI-Powered Learning Platform\tFlutter, Python, Node.js, RAG/FAISS | FYP",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/48",
+      "text": "• Co-developed a learning platform supporting 3,000+ users; implemented textbook-grounded semantic retrieval with embeddings and FAISS, AI-generated quizzes, flashcards, summaries, learner-progress tracking, and gamification.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/49",
+      "text": "• Added quiz generation and validation, recommendation planning, and Socket.IO peer battles; tracked usage after rollout, recording an approximately 40% increase in daily active usage.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/50",
+      "text": "BrainBee Research Proposal — AI-Assisted Mobile Learning\t2025 – Present",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/51",
+      "text": "• Prepared a proposal on constrained AI guidance versus non-AI navigation for mobile learning in Punjab, focusing on task completion, access barriers, and affordability. Defined a counterbalanced usability study; recruitment and empirical evaluation remain planned.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/52",
+      "text": "Backend Evaluation & Stress Testing\tNode.js, Fastify, NestJS, Go/Fiber | k6, Nginx",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/53",
+      "text": "• Built five backend implementations and 16 load/stress scenarios. In one local Node.js test (40,000 requests per mode; concurrency 200), measured 2,029 req/s with Brotli and about 86% less socket output than uncompressed responses.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/54",
+      "text": "NIZAAM — Retail Management SaaS\tFlutter, Riverpod, Supabase/PostgreSQL, Drift",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/55",
+      "text": "• Independently designed, commercialized, and deployed a multi-tenant, multi-branch platform for shop operations: inventory/IMEI tracking, sales, customer credit, repairs, procurement, expenses, and reports.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/56",
+      "text": "• Implemented Supabase Auth, PostgreSQL row-level security, protected workflows, and offline persistence with synchronization queues and idempotency safeguards; iterated on the product from shop feedback.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/57",
+      "text": "Mapbox Navigation Engine\tFlutter, Dart, Mapbox Maps SDK v11",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/58",
+      "text": "• Designed a vendor-neutral turn-by-turn engine in pure Dart with route matching/progress separated from map rendering; local GPS-fix benchmarks were 40.7–71.2 μs on 10,000-point routes.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/59",
+      "text": "• Built 60 FPS vehicle-pose animation and camera controls; validated with 118+ unit, fuzz, and stress tests under GitHub Actions.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/60",
+      "text": "EDUCATION, SKILLS & LANGUAGES",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/61",
+      "text": "BS Computer Science — COMSATS University Islamabad\tFeb 2022 – Jan 2026",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/62",
+      "text": "Mobile & SDKs: Flutter, Dart, Android, Riverpod, BLoC, MVVM  |  AI: local LLM inference, GGUF, RAG, FAISS, agents, embeddings, MCP",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/63",
+      "text": "Backend & Data: Python, Node.js, Express, REST, Firebase, Supabase/PostgreSQL, MongoDB",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/64",
+      "text": "Architecture & State: Clean Architecture, MVVM, BLoC, Provider, Riverpod, GoRouter  |  Cloud & Delivery: AWS EC2, Render, Docker, Nginx, PM2, GitHub Actions, Jenkins",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/65",
+      "text": "Tools & Content: Git/GitHub, Postman, Android Studio, k6, CapCut; technical writing, explainers, scripting, storyboards, video editing",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/66",
+      "text": "Relevant coursework: Artificial Intelligence, Machine Learning, Data Structures & Algorithms, Database Systems, Parallel & Distributed Computing.",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    },
+    {
+      "block_id": "body/67",
+      "text": "Certifications: Flutter App Developer (micro1); Hugging Face Agents Course; AI Agentic Track: Agents & MCP (Udemy). Languages: English (IELTS Academic 6.5), Urdu, Punjabi; French university coursework (A).",
+      "style_name": "Normal",
+      "alignment": null,
+      "font_names": [
+        "Arial"
+      ],
+      "has_bold_run": true
+    }
+  ],
+  "section_hints": [
+    {
+      "section": "summary",
+      "block_id": "body/4",
+      "original_heading": "PROFILE"
+    }
+  ],
+  "layouts": [
+    {
+      "page_width_in": 8.5,
+      "page_height_in": 11.0,
+      "top_margin_in": 0.52,
+      "bottom_margin_in": 0.52,
+      "left_margin_in": 0.64,
+      "right_margin_in": 0.64,
+      "columns": 1
+    }
+  ],
+  "warnings": []
+}

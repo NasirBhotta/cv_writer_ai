@@ -1,0 +1,153 @@
+{
+  "template_sha256": "b1c4d20a4d0d48d06a4e7bcdfa85fca78872925b60717a92bc2fa602fe63147a",
+  "regions": [
+    {
+      "section": "summary",
+      "heading_id": "body/4",
+      "heading_text": "PROFILE",
+      "possible_sections": [
+        "summary"
+      ],
+      "content_block_ids": [
+        "body/5"
+      ],
+      "needs_review": false
+    },
+    {
+      "section": "featured_work",
+      "heading_id": "body/6",
+      "heading_text": "FEATURED TECHNICAL WORK SAMPLE | LOCAL AI ON ANDROID",
+      "possible_sections": [
+        "featured_work"
+      ],
+      "content_block_ids": [
+        "body/7",
+        "body/8",
+        "body/9",
+        "body/10",
+        "body/11",
+        "body/12",
+        "body/13"
+      ],
+      "needs_review": false
+    },
+    {
+      "section": "technical_content",
+      "heading_id": "body/14",
+      "heading_text": "TECHNICAL CONTENT & VIDEO",
+      "possible_sections": [
+        "technical_content"
+      ],
+      "content_block_ids": [
+        "body/15",
+        "body/16",
+        "body/17"
+      ],
+      "needs_review": false
+    },
+    {
+      "section": "experience",
+      "heading_id": "body/18",
+      "heading_text": "RECENT MOBILE ENGINEERING EXPERIENCE",
+      "possible_sections": [
+        "experience"
+      ],
+      "content_block_ids": [
+        "body/19",
+        "body/20",
+        "body/21",
+        "body/22"
+      ],
+      "needs_review": false
+    },
+    {
+      "section": "experience",
+      "heading_id": "body/23",
+      "heading_text": "EARLIER EXPERIENCE — CRIFLY",
+      "possible_sections": [
+        "experience"
+      ],
+      "content_block_ids": [
+        "body/24",
+        "body/25",
+        "body/26",
+        "body/27",
+        "body/28",
+        "body/29",
+        "body/30",
+        "body/31",
+        "body/33",
+        "body/34"
+      ],
+      "needs_review": false
+    },
+    {
+      "section": "projects",
+      "heading_id": "body/35",
+      "heading_text": "AI AGENTS & RESEARCH",
+      "possible_sections": [
+        "projects"
+      ],
+      "content_block_ids": [
+        "body/36",
+        "body/37",
+        "body/38",
+        "body/39",
+        "body/40",
+        "body/41",
+        "body/42",
+        "body/43",
+        "body/44",
+        "body/45"
+      ],
+      "needs_review": true
+    },
+    {
+      "section": "projects",
+      "heading_id": "body/46",
+      "heading_text": "SELECTED ENGINEERING & AI PROJECTS",
+      "possible_sections": [
+        "projects"
+      ],
+      "content_block_ids": [
+        "body/47",
+        "body/48",
+        "body/49",
+        "body/50",
+        "body/51",
+        "body/52",
+        "body/53",
+        "body/54",
+        "body/55",
+        "body/56",
+        "body/57",
+        "body/58",
+        "body/59"
+      ],
+      "needs_review": false
+    },
+    {
+      "section": "mixed",
+      "heading_id": "body/60",
+      "heading_text": "EDUCATION, SKILLS & LANGUAGES",
+      "possible_sections": [
+        "skills",
+        "education",
+        "languages"
+      ],
+      "content_block_ids": [
+        "body/61",
+        "body/62",
+        "body/63",
+        "body/64",
+        "body/65",
+        "body/66",
+        "body/67"
+      ],
+      "needs_review": true
+    }
+  ],
+  "warnings": [
+    "Some section mappings require review."
+  ]
+}
