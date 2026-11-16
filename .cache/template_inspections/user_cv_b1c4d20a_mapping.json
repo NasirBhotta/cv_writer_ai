@@ -11,6 +11,7 @@
       "content_block_ids": [
         "body/5"
       ],
+      "sub_blocks": [],
       "needs_review": false
     },
     {
@@ -29,6 +30,7 @@
         "body/12",
         "body/13"
       ],
+      "sub_blocks": [],
       "needs_review": false
     },
     {
@@ -43,6 +45,7 @@
         "body/16",
         "body/17"
       ],
+      "sub_blocks": [],
       "needs_review": false
     },
     {
@@ -58,6 +61,7 @@
         "body/21",
         "body/22"
       ],
+      "sub_blocks": [],
       "needs_review": false
     },
     {
@@ -75,10 +79,9 @@
         "body/28",
         "body/29",
         "body/30",
-        "body/31",
-        "body/33",
-        "body/34"
+        "body/31"
       ],
+      "sub_blocks": [],
       "needs_review": false
     },
     {
@@ -100,6 +103,7 @@
         "body/44",
         "body/45"
       ],
+      "sub_blocks": [],
       "needs_review": true
     },
     {
@@ -124,6 +128,7 @@
         "body/58",
         "body/59"
       ],
+      "sub_blocks": [],
       "needs_review": false
     },
     {
@@ -144,10 +149,52 @@
         "body/66",
         "body/67"
       ],
+      "sub_blocks": [
+        {
+          "block_id": "body/61",
+          "section": "education",
+          "needs_review": false
+        },
+        {
+          "block_id": "body/62",
+          "section": "skills",
+          "needs_review": false
+        },
+        {
+          "block_id": "body/63",
+          "section": "skills",
+          "needs_review": false
+        },
+        {
+          "block_id": "body/64",
+          "section": "skills",
+          "needs_review": false
+        },
+        {
+          "block_id": "body/65",
+          "section": "skills",
+          "needs_review": false
+        },
+        {
+          "block_id": "body/66",
+          "section": "education",
+          "needs_review": false
+        },
+        {
+          "block_id": "body/67",
+          "section": "certifications",
+          "needs_review": false
+        }
+      ],
       "needs_review": true
     }
   ],
+  "protected_block_ids": [
+    "body/33",
+    "body/34"
+  ],
   "warnings": [
+    "Possible repeated identity/header blocks protected from replacement: body/33, body/34. Verify visually.",
     "Some section mappings require review."
   ]
 }

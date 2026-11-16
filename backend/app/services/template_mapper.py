@@ -6,8 +6,14 @@ from backend.app.models.template_report import (
     TemplateReport,
 )
 from backend.app.models.template_mapping import (
+    MappedSubBlock,
     TemplateMapping,
     TemplateRegion,
+)
+from backend.app.services.template_structure import (
+    classify_mixed_block,
+    find_protected_identity_blocks,
+    validate_template_mapping,
 )
 
 
@@ -87,25 +93,27 @@ def _looks_like_heading(
     if text.startswith(("•", "-", "–")):
         return False
 
-    # Avoid mistaking a repeated page title
-    # containing the candidate's name for a section.
     if (
         first_line
         and _normalize(first_line) in _normalize(text)
-        and (position == 0 or len(text) > len(first_line))
+        and (
+            position == 0
+            or len(text) > len(first_line)
+        )
     ):
         return False
 
-    # Multi-part taglines near the top are usually
-    # not resume section headings.
     if position < 4 and text.count("|") >= 2:
         return False
 
-    if block.style_name.casefold().startswith("heading"):
+    if block.style_name.casefold().startswith(
+        "heading"
+    ):
         return True
 
     letters = [
-        char for char in text
+        char
+        for char in text
         if char.isalpha()
     ]
 
@@ -127,7 +135,6 @@ def map_template(
     report: TemplateReport,
 ) -> TemplateMapping:
 
-    # Only top-level body paragraphs for this version.
     body_blocks = [
         block
         for block in report.blocks
@@ -143,10 +150,19 @@ def map_template(
         else ""
     )
 
+    # NEW: Protect likely repeated identity blocks.
+    protected_ids = find_protected_identity_blocks(
+        report
+    )
+
+    protected = set(protected_ids)
+
     headings = []
 
-    # Find possible section-heading positions.
     for position, block in enumerate(body_blocks):
+        if block.block_id in protected:
+            continue
+
         if _looks_like_heading(
             block, position, first_line
         ):
@@ -160,7 +176,6 @@ def map_template(
 
     regions = []
 
-    # Each section ends before the next heading.
     for index, (start, heading, labels) in enumerate(
         headings
     ):
@@ -170,8 +185,11 @@ def map_template(
             else len(body_blocks)
         )
 
-        content_blocks = body_blocks[
-            start + 1:end
+        # NEW: Never assign protected blocks as content.
+        content_blocks = [
+            block
+            for block in body_blocks[start + 1:end]
+            if block.block_id not in protected
         ]
 
         if len(labels) == 1:
@@ -181,8 +199,6 @@ def map_template(
         else:
             section = "unknown"
 
-        # Research is often a project section,
-        # but not always, so request review.
         normalized = _normalize(heading.text)
 
         ambiguous_research = (
@@ -196,6 +212,23 @@ def map_template(
             or ambiguous_research
         )
 
+        # NEW: Classify paragraphs inside mixed sections.
+        sub_blocks = []
+
+        if section == "mixed":
+            for block in content_blocks:
+                label = classify_mixed_block(block)
+
+                sub_blocks.append(
+                    MappedSubBlock(
+                        block_id=block.block_id,
+                        section=label,
+                        needs_review=(
+                            label == "unknown"
+                        ),
+                    )
+                )
+
         regions.append(
             TemplateRegion(
                 section=section,
@@ -206,11 +239,20 @@ def map_template(
                     block.block_id
                     for block in content_blocks
                 ],
+                sub_blocks=sub_blocks,
                 needs_review=needs_review,
             )
         )
 
     warnings = list(report.warnings)
+
+    if protected_ids:
+        warnings.append(
+            "Possible repeated identity/header blocks "
+            "protected from replacement: "
+            + ", ".join(protected_ids)
+            + ". Verify visually."
+        )
 
     if not regions:
         warnings.append(
@@ -227,7 +269,8 @@ def map_template(
         )
 
     if any(
-        "/r" in block.block_id
+        block.block_id.startswith("body/")
+        and "/r" in block.block_id
         for block in report.blocks
     ):
         warnings.append(
@@ -235,8 +278,23 @@ def map_template(
             "top-level section boundaries yet."
         )
 
-    return TemplateMapping(
+    mapping = TemplateMapping(
         template_sha256=report.sha256,
         regions=regions,
+        protected_block_ids=protected_ids,
         warnings=warnings,
     )
+
+    # NEW: Reject inconsistent block ownership.
+    errors = validate_template_mapping(
+        report,
+        mapping,
+    )
+
+    if errors:
+        raise ValueError(
+            "Unsafe template mapping: "
+            + "; ".join(errors)
+        )
+
+    return mapping
