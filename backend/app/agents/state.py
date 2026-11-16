@@ -8,10 +8,12 @@ class ResumeAgentState(TypedDict):
     target_role: Literal["flutter", "ai", "hybrid"]
     max_pages: int
 
-    # Profile retrieval
+    # Job analysis and profile retrieval
+    job_analysis: NotRequired[dict[str, Any]]
     selected_fact_ids: NotRequired[list[str]]
-    
+
     # Resume generation
+    resume_document: NotRequired[dict[str, Any]]
     resume_draft: NotRequired[str]
 
     # Agentic evaluation loop
@@ -19,7 +21,6 @@ class ResumeAgentState(TypedDict):
     quality_passed: NotRequired[bool]
     revision_count: NotRequired[int]
 
-    # Output & approval
+    # Output & approval (future workflow)
     pdf_path: NotRequired[str]
     approved: NotRequired[bool]
-    job_analysis: NotRequired[dict[str, Any]]

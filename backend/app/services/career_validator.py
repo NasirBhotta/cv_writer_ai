@@ -156,11 +156,12 @@ def _known_urls(context: dict[str, Any]) -> set[str]:
     return urls
 
 
+
 def _professional_section(draft: str) -> str:
     pattern = (
-        r"(?im)^#{1,3}\s*"
-        r"(?:professional|work|employment)\s+experience"
-        r"\s*$"
+        r"(?im)^(#{1,4})[ \t]+"
+        r"(?:professional|work|employment)"
+        r"[ \t]+experience[ \t]*$"
     )
 
     match = re.search(pattern, draft)
@@ -168,17 +169,27 @@ def _professional_section(draft: str) -> str:
     if not match:
         return ""
 
+    # Find the heading level of Professional Experience.
+    heading_level = len(match.group(1))
+
     remaining = draft[match.end():]
 
+    # Stop only at a heading of the same or higher level.
+    # For a ## section, ### company headings are allowed.
+    next_section_pattern = (
+        rf"(?m)^#{{1,{heading_level}}}[ \t]+\S"
+    )
+
     next_section = re.search(
-        r"(?m)^#{1,3}\s+\S",
+        next_section_pattern,
         remaining,
     )
 
     if next_section:
-        return remaining[:next_section.start()]
+        return remaining[:next_section.start()].strip()
 
-    return remaining
+    return remaining.strip()
+
 
 
 def validate_resume_draft(
