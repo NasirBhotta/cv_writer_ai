@@ -1,0 +1,33 @@
+{
+  "run_id": "63d6f55db13c4e6c",
+  "run_directory": "D:\\CV_Writer\\outputs\\fresh_resume_runs\\run-63d6f55db13c4e6c",
+  "status": "rejected",
+  "stopped_at": "semantic_recheck",
+  "artifacts": {
+    "run_input": "D:\\CV_Writer\\outputs\\fresh_resume_runs\\run-63d6f55db13c4e6c\\run_input.json",
+    "candidate_snapshot": "D:\\CV_Writer\\outputs\\fresh_resume_runs\\run-63d6f55db13c4e6c\\candidate.json",
+    "semantic_result": "D:\\CV_Writer\\outputs\\fresh_resume_runs\\run-63d6f55db13c4e6c\\semantic_result.json",
+    "report": "D:\\CV_Writer\\outputs\\fresh_resume_runs\\run-63d6f55db13c4e6c\\pipeline_report.json"
+  },
+  "sha256": {
+    "profile": "6be358e3840ef61fa7c62b46e9e9b05a8b49c2da60920d3945cfecb5b7b5b1ea",
+    "template": "b1c4d20a4d0d48d06a4e7bcdfa85fca78872925b60717a92bc2fa602fe63147a"
+  },
+  "graph_quality_passed": true,
+  "semantic_passed": false,
+  "content_automated_passed": false,
+  "layout_automated_passed": false,
+  "automated_checks_passed": false,
+  "unresolved_work_ids": [],
+  "retained_template_entries": [],
+  "omitted_selected_fact_ids": [],
+  "review_reasons": [
+    "Summary: Claims experience building 'multi-tenant Flutter applications', but the source fact mentioning multi-tenant (nizaam_fact_01) specifies 'mobile-retail ERP/POS workflows' without identifying Flutter, combining separate facts without direct evidence.",
+    "crifly_developer_fact_03: The bullet introduces 'structuring client applications using MVVM and BLoC patterns', whereas the source fact only mentions 'MVVM/BLoC state management'.",
+    "brainbee_rag: The bullet adds 'vector indexing', which is an inferred technical detail not present in the source fact ('using embedding-based semantic retrieval and FAISS').",
+    "resume_agent_mvp_fact_02: The bullet states 'Executed and evaluated a Writer-Evaluator revision loop', incorrectly attributing the action of 'evaluated' to the candidate rather than representing the 'Writer → Evaluator → Writer' workflow loop described in the source fact."
+  ],
+  "warnings": [],
+  "errors": [],
+  "ready_for_export": false
+}

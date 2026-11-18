@@ -68,6 +68,28 @@ class FakeRemovalPlan(BaseModel):
 
 class PipelineTests(unittest.TestCase):
 
+    def preview_with_missing_slot(
+        self,
+        template,
+        snapshot,
+        output,
+    ):
+        """Simulate an approved entry with no template slot."""
+
+        report = self.preview(
+            template,
+            snapshot,
+            output,
+        )
+
+        report["skipped"] = [
+            "work_1: no unique approved template slot"
+        ]
+
+        report["updated_work_ids"] = []
+
+        return report
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
@@ -468,6 +490,11 @@ class PipelineTests(unittest.TestCase):
     def test_insertion_requires_dry_run_first(
         self,
     ):
+        self.patch(
+            service,
+            "write_dynamic_resume_preview",
+            self.preview_with_missing_slot,
+        )
         def fake_inserter(**kwargs):
             self.calls.append(
                 "insert-dry"
