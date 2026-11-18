@@ -1,0 +1,193 @@
+{
+  "resume_document": {
+    "headline": "Junior Full-Stack AI Engineer | Flutter, Python & RAG Systems",
+    "summary": "Junior Full-Stack and AI Engineer experienced in building cross-platform Flutter applications, textbook-grounded RAG pipelines, and scalable REST APIs. Proven background delivering mobile features across commercial applications, optimizing backend query performance, and building Python-driven LLM and agentic workflows.",
+    "skill_groups": [
+      {
+        "title": "AI & Python Engineering",
+        "skills": [
+          "Python",
+          "RAG",
+          "Embeddings",
+          "FAISS",
+          "LangGraph",
+          "LLM Integration",
+          "Pydantic"
+        ]
+      },
+      {
+        "title": "Mobile & Frontend Development",
+        "skills": [
+          "Flutter",
+          "Dart",
+          "BLoC",
+          "Riverpod",
+          "MVVM"
+        ]
+      },
+      {
+        "title": "Backend, Databases & APIs",
+        "skills": [
+          "REST APIs",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "PostgreSQL",
+          "Supabase",
+          "Firebase"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "work_id": "crifly_developer",
+        "section": "experience",
+        "bullets": [
+          {
+            "fact_id": "crifly_developer_fact_02",
+            "text": "Integrated over 20 REST API endpoints, Firebase authentication, and realtime data feeds into commercial Flutter application workflows."
+          },
+          {
+            "fact_id": "crifly_developer_fact_01",
+            "text": "Contributed to development and maintenance across six Flutter applications with responsive screens, reusable widgets and backend-connected features."
+          },
+          {
+            "fact_id": "crifly_developer_fact_03",
+            "text": "Developed backend services using Node.js, Express.js, and MongoDB while structuring mobile codebases with BLoC and MVVM architectures."
+          }
+        ]
+      },
+      {
+        "work_id": "glowsims_intern",
+        "section": "experience",
+        "bullets": [
+          {
+            "fact_id": "glowsims_intern_fact_01",
+            "text": "Optimized learning-management database queries and indexing, cutting reported p95 API latency from 1,100 ms to 420 ms (a 62% reduction)."
+          },
+          {
+            "fact_id": "glowsims_intern_fact_03",
+            "text": "Enhanced Talib dashboard loading using caching, lazy loading and pagination; reported 3.2s to 1.4s (about 56%) load-time improvement."
+          }
+        ]
+      },
+      {
+        "work_id": "axaon_24ifix",
+        "section": "experience",
+        "bullets": [
+          {
+            "fact_id": "axaon_24ifix_fact_03",
+            "text": "Worked on customer booking, dashboard and repair-status integration journeys as company development scope."
+          }
+        ]
+      },
+      {
+        "work_id": "brainbee",
+        "section": "project",
+        "bullets": [
+          {
+            "fact_id": "brainbee_rag",
+            "text": "Co-developed textbook-grounded RAG capabilities leveraging embedding-based semantic retrieval and FAISS vector indexing."
+          },
+          {
+            "fact_id": "brainbee_flutter",
+            "text": "Developed Flutter student-facing learning experiences connected to backend APIs."
+          },
+          {
+            "fact_id": "brainbee_fact_03",
+            "text": "Implemented AI-assisted generation modules for quizzes, flashcards, and automated learning summaries."
+          }
+        ]
+      },
+      {
+        "work_id": "recruitflow",
+        "section": "project",
+        "bullets": [
+          {
+            "fact_id": "recruitflow_fact_01",
+            "text": "Implemented Gmail attachment and direct-PDF intake, PDF parsing and extraction into structured candidate profiles."
+          },
+          {
+            "fact_id": "recruitflow_fact_02",
+            "text": "Built deterministic ATS scoring logic evaluating required skills, experience indicators, and transparent candidate comparison breakdowns."
+          }
+        ]
+      },
+      {
+        "work_id": "resume_agent_mvp",
+        "section": "project",
+        "bullets": [
+          {
+            "fact_id": "resume_agent_mvp_fact_01",
+            "text": "Implemented master career profile models, JSON persistence, JD analysis, fact retrieval and initial writer/evaluator nodes in LangGraph."
+          }
+        ]
+      },
+      {
+        "work_id": "nizaam",
+        "section": "project",
+        "bullets": [
+          {
+            "fact_id": "nizaam_fact_01",
+            "text": "Designed and developed multi-tenant and multi-branch mobile-retail ERP/POS workflows covering inventory, sales, customer credit and repairs."
+          },
+          {
+            "fact_id": "nizaam_fact_03",
+            "text": "Implemented Supabase authentication, tenant data isolation using PostgreSQL row-level security (RLS), and secure RPC functions."
+          }
+        ]
+      }
+    ]
+  },
+  "selected_fact_ids": [
+    "brainbee_rag",
+    "brainbee_flutter",
+    "crifly_developer_fact_02",
+    "crifly_developer_fact_01",
+    "recruitflow_fact_01",
+    "resume_agent_mvp_fact_01",
+    "glowsims_intern_fact_01",
+    "uniproof_fact_01",
+    "brainbee_fact_03",
+    "crifly_developer_fact_03",
+    "crifly_developer_fact_04",
+    "recruitflow_fact_02",
+    "antigravity_adapter_fact_01",
+    "glowsims_intern_fact_03",
+    "nizaam_fact_01",
+    "nizaam_fact_03",
+    "axaon_24ifix_fact_03",
+    "crifly_intern_fact_02"
+  ],
+  "quality_passed": false,
+  "evaluation_feedback": "Candidate bullet 3 (crifly_developer_fact_03) claims 'structuring mobile codebases with BLoC and MVVM architectures', which infers an architectural structuring scope beyond the source fact 'Worked on Node.js/Express/MongoDB backend services and MVVM/BLoC state management.'; Candidate bullet 11 (recruitflow_fact_02) claims 'deterministic ATS scoring logic', which introduces an unverified scoring mechanism not present in the source fact ('Built deterministic ATS matching with required/preferred skills, experience signals and transparent comparison breakdowns').",
+  "profile_sha256": "6be358e3840ef61fa7c62b46e9e9b05a8b49c2da60920d3945cfecb5b7b5b1ea",
+  "run_status": "rechecked_rejected",
+  "error": null,
+  "revision_count": 0,
+  "previous_evaluation_feedback": "Source-fact bullet corrections applied; full semantic re-evaluation required.",
+  "semantic_recheck": {
+    "passed": false,
+    "issues": [
+      "Candidate bullet 3 (crifly_developer_fact_03) claims 'structuring mobile codebases with BLoC and MVVM architectures', which infers an architectural structuring scope beyond the source fact 'Worked on Node.js/Express/MongoDB backend services and MVVM/BLoC state management.'",
+      "Candidate bullet 11 (recruitflow_fact_02) claims 'deterministic ATS scoring logic', which introduces an unverified scoring mechanism not present in the source fact ('Built deterministic ATS matching with required/preferred skills, experience signals and transparent comparison breakdowns')."
+    ],
+    "checked_fact_ids": [
+      "crifly_developer_fact_02",
+      "crifly_developer_fact_01",
+      "crifly_developer_fact_03",
+      "glowsims_intern_fact_01",
+      "glowsims_intern_fact_03",
+      "axaon_24ifix_fact_03",
+      "brainbee_rag",
+      "brainbee_flutter",
+      "brainbee_fact_03",
+      "recruitflow_fact_01",
+      "recruitflow_fact_02",
+      "resume_agent_mvp_fact_01",
+      "nizaam_fact_01",
+      "nizaam_fact_03"
+    ],
+    "document_sha256": "3b8d2f32dea138acd0b799be54bcd6f5076233d9f1ea50c2adbc76a0e8496d99"
+  }
+}

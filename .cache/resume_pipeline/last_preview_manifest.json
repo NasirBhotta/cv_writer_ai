@@ -1,0 +1,56 @@
+{
+  "template_path": "templates\\user_cv.docx",
+  "snapshot_path": ".cache/resume_pipeline/last_resume_run.json",
+  "template_sha256": "b1c4d20a4d0d48d06a4e7bcdfa85fca78872925b60717a92bc2fa602fe63147a",
+  "profile_sha256": "6be358e3840ef61fa7c62b46e9e9b05a8b49c2da60920d3945cfecb5b7b5b1ea",
+  "quality_passed": false,
+  "summary_included": true,
+  "planned_block_ids": [
+    "body/5",
+    "body/25",
+    "body/26",
+    "body/27",
+    "body/55",
+    "body/56"
+  ],
+  "updated_work_ids": [
+    "crifly_developer",
+    "nizaam"
+  ],
+  "skipped_entries": [
+    "glowsims_intern: bullet count differs (template=3, generated=2)",
+    "axaon_24ifix: no unique approved template entry",
+    "brainbee: bullet count differs (template=2, generated=3)",
+    "recruitflow: no unique approved template entry",
+    "resume_agent_mvp: no unique approved template entry"
+  ],
+  "unchanged_template_entries": [
+    "body/19: Mobile App Development Intern — GLOWSIMS\tFeb 2026 – May 2026",
+    "body/28: Full-Stack Flutter Developer Intern — CRIFLY\tJun 2024 – Sep 2024",
+    "body/30: Full-Stack E-Commerce Platform\tFlutter, Firebase, Stripe",
+    "body/36: University Research Agent — Multi-Agent Programme Matching\tIndependent project",
+    "body/38: Agentic AI & Automation Portfolio\tPython | OpenAI Agents SDK, CrewAI, LangGraph, MCP",
+    "body/40: TaskMorph — Adaptive Multi-Agent Research System\tIn progress",
+    "body/42: CVFlow — AI-Assisted Recruitment Workflow\tGmail, Sheets, LLM parsing",
+    "body/44: Portfolio AI Representative\tIntegration in progress",
+    "body/47: BrainBee — AI-Powered Learning Platform\tFlutter, Python, Node.js, RAG/FAISS | FYP",
+    "body/50: BrainBee Research Proposal — AI-Assisted Mobile Learning\t2025 – Present",
+    "body/52: Backend Evaluation & Stress Testing\tNode.js, Fastify, NestJS, Go/Fiber | k6, Nginx",
+    "body/57: Mapbox Navigation Engine\tFlutter, Dart, Mapbox Maps SDK v11"
+  ],
+  "warnings": [
+    "Possible repeated identity/header blocks protected from replacement: body/33, body/34. Verify visually.",
+    "Some section mappings require review.",
+    "Review entry body/30: Full-Stack E-Commerce Platform",
+    "Review entry body/36: University Research Agent — Multi-Agent Programme Matching",
+    "Review entry body/38: Agentic AI & Automation Portfolio",
+    "Review entry body/40: TaskMorph — Adaptive Multi-Agent Research System",
+    "Review entry body/42: CVFlow — AI-Assisted Recruitment Workflow",
+    "Review entry body/44: Portfolio AI Representative",
+    "Review entry body/50: BrainBee Research Proposal — AI-Assisted Mobile Learning",
+    "Saved evaluator did not pass; DOCX writing is blocked.",
+    "Some original CV entries remain unchanged; this is NOT a final tailored CV.",
+    "Some generated resume entries could not be mapped safely."
+  ],
+  "preview_only": true
+}
