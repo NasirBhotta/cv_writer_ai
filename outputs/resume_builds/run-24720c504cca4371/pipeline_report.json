@@ -1,0 +1,63 @@
+{
+  "run_id": "24720c504cca4371",
+  "run_directory": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371",
+  "status": "needs_review",
+  "stopped_at": "complete_pending_review",
+  "artifacts": {
+    "report": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\pipeline_report.json",
+    "original_template": "D:\\CV_Writer\\templates\\user_cv.docx",
+    "snapshot": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\approved_snapshot.json",
+    "preview_docx": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\preview.docx",
+    "preview_details": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\preview_details.json",
+    "content_audit": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\content_audit.json",
+    "assembled_preview_docx": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\preview.docx",
+    "template_pdf": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\template_reference.pdf",
+    "assembled_preview_pdf": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\assembled_preview.pdf",
+    "layout_audit": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\layout_audit.json",
+    "page_images_dir": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\page_images"
+  },
+  "sha256": {
+    "template": "b1c4d20a4d0d48d06a4e7bcdfa85fca78872925b60717a92bc2fa602fe63147a",
+    "approved_snapshot": "2a48c626912a49d108a5393e2be317a22c78e845863b48085dbbe9c1807be2cb",
+    "profile": "6be358e3840ef61fa7c62b46e9e9b05a8b49c2da60920d3945cfecb5b7b5b1ea",
+    "assembled_preview_docx": "657257eca50bc2cd41ee84989d5dabbde2d6c88eae527320c6ee63067793fddf",
+    "assembled_preview_pdf": "f3a9469f079cd19fd06c3f58cf1e1d64c1ff5b70da2a73c2b3e8731d7883770b"
+  },
+  "content_automated_passed": false,
+  "layout_automated_passed": true,
+  "automated_checks_passed": false,
+  "unresolved_work_ids": [
+    "axaon_24ifix",
+    "recruitflow",
+    "resume_agent_mvp",
+    "nizaam"
+  ],
+  "retained_template_entries": [
+    "Backend Evaluation & Stress Testing"
+  ],
+  "omitted_selected_fact_ids": [
+    "crifly_developer_fact_04",
+    "crifly_intern_fact_02",
+    "uniproof_fact_01",
+    "antigravity_adapter_fact_01"
+  ],
+  "review_reasons": [
+    "Approved entries are missing, ambiguous, or need role review.",
+    "Template-only entries require relevance review.",
+    "Retriever-selected facts were omitted: review those decisions.",
+    "axaon_24ifix: approved heading not located.",
+    "recruitflow: approved heading not located.",
+    "resume_agent_mvp: approved heading not located.",
+    "nizaam: approved heading not located.",
+    "Some automated checks did not pass.",
+    "Human visual QA is required; headline/skills and template-only content are not fully synchronized or visually verified."
+  ],
+  "warnings": [
+    "Preview skipped entries; final content audit will check them.",
+    "4 selected facts were not used in approved resume; manual relevance review.",
+    "1 template-only entry candidates found; do not delete without review.",
+    "Manual page breaks present: review whether they still make sense after adding/removing entries."
+  ],
+  "errors": [],
+  "ready_for_export": false
+}

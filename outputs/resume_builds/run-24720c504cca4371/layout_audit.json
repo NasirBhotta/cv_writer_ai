@@ -1,0 +1,36 @@
+{
+  "source_docx": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\preview.docx",
+  "source_sha256": "657257eca50bc2cd41ee84989d5dabbde2d6c88eae527320c6ee63067793fddf",
+  "pdf_path": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\assembled_preview.pdf",
+  "pdf_sha256": "f3a9469f079cd19fd06c3f58cf1e1d64c1ff5b70da2a73c2b3e8731d7883770b",
+  "template_pdf_path": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\template_reference.pdf",
+  "template_pages": 2,
+  "actual_pages": 2,
+  "page_text_characters": [
+    4161,
+    4358
+  ],
+  "manual_page_break_paragraphs": [
+    31
+  ],
+  "page_break_before_paragraphs": [],
+  "decision": {
+    "mode": "template_preference",
+    "exact_pages": null,
+    "maximum_pages": null,
+    "preferred_pages": 2,
+    "conflicts": []
+  },
+  "page_images": [
+    "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\page_images\\page-1.png",
+    "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\page_images\\page-2.png"
+  ],
+  "pdf_generated_from_source_this_run": true,
+  "warnings": [
+    "Manual page breaks present: review whether they still make sense after adding/removing entries."
+  ],
+  "errors": [],
+  "automated_checks_passed": true,
+  "visual_review_pending": true,
+  "ready_for_final_export": false
+}

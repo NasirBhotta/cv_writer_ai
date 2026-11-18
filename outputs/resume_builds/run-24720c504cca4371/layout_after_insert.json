@@ -1,0 +1,40 @@
+{
+  "source_docx": "outputs\\resume_builds\\run-24720c504cca4371\\preview_with_missing_entries.docx",
+  "source_sha256": "ad46ea68c73226379b566a483a109a6df09eea2e105206532c1da50f7f5aef2b",
+  "pdf_path": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\preview_after_insert.pdf",
+  "pdf_sha256": "c03e7dd81c68615d643bb65b9d269d70f2e24436433891466b082bdb548ecdb4",
+  "template_pdf_path": null,
+  "template_pages": 2,
+  "actual_pages": 3,
+  "page_text_characters": [
+    4297,
+    4490,
+    354
+  ],
+  "manual_page_break_paragraphs": [
+    33
+  ],
+  "page_break_before_paragraphs": [],
+  "decision": {
+    "mode": "template_preference",
+    "exact_pages": null,
+    "maximum_pages": null,
+    "preferred_pages": 2,
+    "conflicts": []
+  },
+  "page_images": [
+    "outputs\\resume_builds\\run-24720c504cca4371\\pages_after_insert\\page-1.png",
+    "outputs\\resume_builds\\run-24720c504cca4371\\pages_after_insert\\page-2.png",
+    "outputs\\resume_builds\\run-24720c504cca4371\\pages_after_insert\\page-3.png"
+  ],
+  "pdf_generated_from_source_this_run": true,
+  "warnings": [
+    "Template preference is 2 pages; output is 3. Review relevance and natural reflow; do not force page count.",
+    "Manual page breaks present: review whether they still make sense after adding/removing entries.",
+    "Original template was measured through a temporary PDF; the temporary export has been deleted."
+  ],
+  "errors": [],
+  "automated_checks_passed": true,
+  "visual_review_pending": true,
+  "ready_for_final_export": false
+}

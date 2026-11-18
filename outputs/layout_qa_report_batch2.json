@@ -1,0 +1,40 @@
+{
+  "source_docx": "outputs\\safe_entries_preview.docx",
+  "source_sha256": "b4e463f4b7180fa5e4cbd4a5e3e72a90e8befd341fd2ff52c067ffd039779a0e",
+  "pdf_path": "D:\\CV_Writer\\outputs\\layout_preview_batch2.pdf",
+  "pdf_sha256": "7d571f76cd26f035b9af1511375f7b9e7b147a12125437c828ac373b6a761ff7",
+  "template_pdf_path": null,
+  "template_pages": 2,
+  "actual_pages": 3,
+  "page_text_characters": [
+    4297,
+    4490,
+    354
+  ],
+  "manual_page_break_paragraphs": [
+    33
+  ],
+  "page_break_before_paragraphs": [],
+  "decision": {
+    "mode": "template_preference",
+    "exact_pages": null,
+    "maximum_pages": null,
+    "preferred_pages": 2,
+    "conflicts": []
+  },
+  "page_images": [
+    "outputs\\layout_qa_pages_batch2\\page-1.png",
+    "outputs\\layout_qa_pages_batch2\\page-2.png",
+    "outputs\\layout_qa_pages_batch2\\page-3.png"
+  ],
+  "pdf_generated_from_source_this_run": true,
+  "warnings": [
+    "Template preference is 2 pages; output is 3. Review relevance and natural reflow; do not force page count.",
+    "Manual page breaks present: review whether they still make sense after adding/removing entries.",
+    "Original template was measured through a temporary PDF; the temporary export has been deleted."
+  ],
+  "errors": [],
+  "automated_checks_passed": true,
+  "visual_review_pending": true,
+  "ready_for_final_export": false
+}

@@ -1,0 +1,31 @@
+{
+  "output": "D:\\CV_Writer\\outputs\\resume_builds\\run-24720c504cca4371\\preview.docx",
+  "updated_work_ids": [
+    "crifly_developer",
+    "glowsims_intern",
+    "brainbee",
+    "nizaam"
+  ],
+  "skipped": [
+    "axaon_24ifix: no unique approved template slot",
+    "recruitflow: no unique approved template slot",
+    "resume_agent_mvp: no unique approved template slot"
+  ],
+  "bullets_inserted": 1,
+  "bullets_removed": 1,
+  "summary_updated": true,
+  "unchanged_template_entries": [
+    "body/28",
+    "body/30",
+    "body/36",
+    "body/38",
+    "body/40",
+    "body/42",
+    "body/44",
+    "body/50",
+    "body/52",
+    "body/57"
+  ],
+  "preview_only": true,
+  "layout_verified": false
+}

@@ -1,0 +1,270 @@
+{
+  "source_path": "outputs\\resume_builds\\run-24720c504cca4371\\preview_with_missing_entries.docx",
+  "snapshot_path": ".cache\\resume_pipeline\\approved_resume_run_v3.json",
+  "source_sha256": "ad46ea68c73226379b566a483a109a6df09eea2e105206532c1da50f7f5aef2b",
+  "approved_work_ids": [
+    "crifly_developer",
+    "glowsims_intern",
+    "axaon_24ifix",
+    "brainbee",
+    "recruitflow",
+    "resume_agent_mvp",
+    "nizaam"
+  ],
+  "entries": [
+    {
+      "work_id": "crifly_developer",
+      "section": "experience",
+      "matched_heading": "Part-time Full-Stack Flutter Developer — CRIFLY\tJan 2025 – Feb 2026",
+      "heading_count": 1,
+      "expected_bullets": 3,
+      "matched_bullets": 3,
+      "missing_fact_ids": [],
+      "extra_bullets": [],
+      "status": "pass",
+      "notes": []
+    },
+    {
+      "work_id": "glowsims_intern",
+      "section": "experience",
+      "matched_heading": "Mobile App Development Intern — GLOWSIMS\tFeb 2026 – May 2026",
+      "heading_count": 1,
+      "expected_bullets": 2,
+      "matched_bullets": 2,
+      "missing_fact_ids": [],
+      "extra_bullets": [],
+      "status": "pass",
+      "notes": []
+    },
+    {
+      "work_id": "axaon_24ifix",
+      "section": "experience",
+      "matched_heading": "AXAON Software\tNov 2026",
+      "heading_count": 1,
+      "expected_bullets": 1,
+      "matched_bullets": 1,
+      "missing_fact_ids": [],
+      "extra_bullets": [],
+      "status": "review",
+      "notes": [
+        "Company-only heading: verify role designation before final export."
+      ]
+    },
+    {
+      "work_id": "brainbee",
+      "section": "project",
+      "matched_heading": "BrainBee — AI-Powered Learning Platform\tFlutter, Python, Node.js, RAG/FAISS | FYP",
+      "heading_count": 1,
+      "expected_bullets": 3,
+      "matched_bullets": 3,
+      "missing_fact_ids": [],
+      "extra_bullets": [],
+      "status": "pass",
+      "notes": []
+    },
+    {
+      "work_id": "recruitflow",
+      "section": "project",
+      "matched_heading": "RecruitFlow — AI-Assisted Recruitment ATS",
+      "heading_count": 1,
+      "expected_bullets": 2,
+      "matched_bullets": 2,
+      "missing_fact_ids": [],
+      "extra_bullets": [],
+      "status": "pass",
+      "notes": []
+    },
+    {
+      "work_id": "resume_agent_mvp",
+      "section": "project",
+      "matched_heading": "Evidence-Grounded Resume Agent — In Development\tNov 2026",
+      "heading_count": 1,
+      "expected_bullets": 1,
+      "matched_bullets": 1,
+      "missing_fact_ids": [],
+      "extra_bullets": [],
+      "status": "pass",
+      "notes": []
+    },
+    {
+      "work_id": "nizaam",
+      "section": "project",
+      "matched_heading": null,
+      "heading_count": 0,
+      "expected_bullets": 2,
+      "matched_bullets": 0,
+      "missing_fact_ids": [],
+      "extra_bullets": [],
+      "status": "fail",
+      "notes": [
+        "No confidently matched heading; verify template naming/mapping."
+      ]
+    }
+  ],
+  "omitted_selected_facts": [
+    {
+      "work_id": "crifly_developer",
+      "fact_id": "crifly_developer_fact_04",
+      "source_fact": "Investigated asynchronous state, API integration, runtime-permission and UI defects; supported testing and release preparation.",
+      "selected_by_retriever": true,
+      "jd_term_matches": [],
+      "reason": "Selected by retriever but omitted by approved ResumeDocument; needs relevance review."
+    },
+    {
+      "work_id": "crifly_intern",
+      "fact_id": "crifly_intern_fact_02",
+      "source_fact": "Assisted with Firebase and REST API integration, functional testing and defect resolution.",
+      "selected_by_retriever": true,
+      "jd_term_matches": [
+        "rest"
+      ],
+      "reason": "Selected by retriever but omitted by approved ResumeDocument; needs relevance review."
+    },
+    {
+      "work_id": "uniproof",
+      "fact_id": "uniproof_fact_01",
+      "source_fact": "Designed three layers for applicant document extraction, regional university research and programme eligibility assessment.",
+      "selected_by_retriever": true,
+      "jd_term_matches": [],
+      "reason": "Selected by retriever but omitted by approved ResumeDocument; needs relevance review."
+    },
+    {
+      "work_id": "antigravity_adapter",
+      "fact_id": "antigravity_adapter_fact_01",
+      "source_fact": "Implemented a provider adapter converting SDK conversation history, system instructions and function schemas to a local Antigravity request format.",
+      "selected_by_retriever": true,
+      "jd_term_matches": [],
+      "reason": "Selected by retriever but omitted by approved ResumeDocument; needs relevance review."
+    }
+  ],
+  "potentially_relevant_unselected_facts": [
+    {
+      "work_id": "ai_sidekick",
+      "fact_id": "ai_sidekick_fact_01",
+      "source_fact": "Studied tool routing, browser/search/Python/file operations and iterative evaluator feedback using explicit LangGraph state.",
+      "selected_by_retriever": false,
+      "jd_term_matches": [
+        "python"
+      ],
+      "reason": "Unselected profile fact has JD term overlap; informational hint, not proof of relevance."
+    },
+    {
+      "work_id": "ai_task_planner",
+      "fact_id": "ai_task_planner_fact_01",
+      "source_fact": "Explored multi-step task planning with function calls and execution of tool requests in Python.",
+      "selected_by_retriever": false,
+      "jd_term_matches": [
+        "python"
+      ],
+      "reason": "Unselected profile fact has JD term overlap; informational hint, not proof of relevance."
+    },
+    {
+      "work_id": "axaon_24ifix",
+      "fact_id": "axaon_24ifix_fact_01",
+      "source_fact": "Worked on Flutter client development for Android and iOS device-repair booking workflows.",
+      "selected_by_retriever": false,
+      "jd_term_matches": [
+        "flutter"
+      ],
+      "reason": "Unselected profile fact has JD term overlap; informational hint, not proof of relevance."
+    },
+    {
+      "work_id": "crifly_intern",
+      "fact_id": "crifly_intern_fact_01",
+      "source_fact": "Implemented Flutter UI screens and reusable components from design specifications.",
+      "selected_by_retriever": false,
+      "jd_term_matches": [
+        "flutter"
+      ],
+      "reason": "Unselected profile fact has JD term overlap; informational hint, not proof of relevance."
+    },
+    {
+      "work_id": "gotcakey",
+      "fact_id": "gotcakey_fact_01",
+      "source_fact": "Developed buyer-side Flutter flows for onboarding, signup, login, account registration and marketplace journeys.",
+      "selected_by_retriever": false,
+      "jd_term_matches": [
+        "flutter"
+      ],
+      "reason": "Unselected profile fact has JD term overlap; informational hint, not proof of relevance."
+    },
+    {
+      "work_id": "gotcakey",
+      "fact_id": "gotcakey_fact_02",
+      "source_fact": "Developed or maintained Node.js/Express REST endpoints for buyer accounts and cake-listing/order workflows.",
+      "selected_by_retriever": false,
+      "jd_term_matches": [
+        "rest"
+      ],
+      "reason": "Unselected profile fact has JD term overlap; informational hint, not proof of relevance."
+    },
+    {
+      "work_id": "resume_agent_mvp",
+      "fact_id": "resume_agent_mvp_fact_03",
+      "source_fact": "Template-preserving two-page DOCX/PDF rendering, human approval and full frontend are planned rather than completed.",
+      "selected_by_retriever": false,
+      "jd_term_matches": [
+        "full"
+      ],
+      "reason": "Unselected profile fact has JD term overlap; informational hint, not proof of relevance."
+    },
+    {
+      "work_id": "ride_share",
+      "fact_id": "ride_share_fact_01",
+      "source_fact": "Built multi-role Flutter flows for rider, driver and admin with Firebase backend integration.",
+      "selected_by_retriever": false,
+      "jd_term_matches": [
+        "flutter"
+      ],
+      "reason": "Unselected profile fact has JD term overlap; informational hint, not proof of relevance."
+    },
+    {
+      "work_id": "shoutsy",
+      "fact_id": "shoutsy_fact_01",
+      "source_fact": "Co-developed Flutter application features for brand/creator campaign collaboration as part of the Crifly team.",
+      "selected_by_retriever": false,
+      "jd_term_matches": [
+        "flutter"
+      ],
+      "reason": "Unselected profile fact has JD term overlap; informational hint, not proof of relevance."
+    },
+    {
+      "work_id": "shoutsy",
+      "fact_id": "shoutsy_fact_02",
+      "source_fact": "Worked on Flutter state management and real-time chat/messaging workflows.",
+      "selected_by_retriever": false,
+      "jd_term_matches": [
+        "flutter"
+      ],
+      "reason": "Unselected profile fact has JD term overlap; informational hint, not proof of relevance."
+    }
+  ],
+  "retained_template_entries": [
+    {
+      "work_id": "backend_testing",
+      "heading": "Backend Evaluation & Stress Testing",
+      "reason": "Present in DOCX but absent from approved ResumeDocument; review before removal."
+    }
+  ],
+  "jd_terms": [
+    "apis",
+    "flutter",
+    "full",
+    "python",
+    "rag",
+    "rest",
+    "stack"
+  ],
+  "jd_relevance_reviewed": true,
+  "approved_content_complete": false,
+  "errors": [
+    "nizaam: approved heading not located."
+  ],
+  "warnings": [
+    "4 selected facts were not used in approved resume; manual relevance review.",
+    "1 template-only entry candidates found; do not delete without review."
+  ],
+  "read_only": true,
+  "visual_layout_verified": false,
+  "ready_for_final_export": false
+}
